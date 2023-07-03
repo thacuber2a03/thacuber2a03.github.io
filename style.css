@@ -1,8 +1,8 @@
 /* enough CSS for today */
 
 body {
-	background-color: #C3B093;
-	padding: 100px;
+	background-color: #CDB989;
+	padding: 80px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,11 +13,18 @@ a {
 }
 
 #me {
+	margin: 8px;
+	vertical-align: middle;
 	max-width: 5vw;
 }
 
 @media only screen and (max-width: 620px) {
 	body {
 		padding: 10px;
+	}
+
+	#me {
+		/* vertical-align: text-middle; */
+		max-width: 10vw;
 	}
 }
