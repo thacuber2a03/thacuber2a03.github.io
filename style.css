@@ -1,95 +1,17 @@
+/* enough CSS for today */
+
 body {
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
+	background-color: #C3B093;
+	padding: 100px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.general-look {
-    background-color: darkgray;
-    padding: 5px;
-    margin: auto;
-    width: 40em;
-    border: solid 2px gray;
-    border-radius: 10px;
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #8B5600;
 }
 
-/* Logo */
-
-#page-logo {
-    position: relative;
-    text-align: center;
-}
-
-#page-logo-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10em;
-}
-
-#page-logo-title {
-    position: absolute;
-    top: 120%;
-    left: 50%;
-    width: auto;
-    transform: translate(-50%, -110%);
-}
-
-/* Navbar */
-
-#navbar ul {
-    list-style-type: none;
-    padding: 0em;
-    margin: 0em;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#navbar li {
-    font-size: 1.25em;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    width: 4em;
-    padding: 1em;
-}
-
-#navbar li a {
-    display: block;
-    color: black;
-    font-size: 1.25em;
-    padding: 1em;
-    text-decoration: inherit;
-    transition: inherit;
-    border: solid 4px gray;
-    border-radius: 8px;
-}
-
-#navbar li p {
-    background-color: gray;
-    color: white;
-    font-size: 1.25em;
-    padding: 1em;
-    margin: 0px;
-    border: solid 4px gray;
-    border-radius: 8px;
-}
-
-#navbar li a:hover {
-    background-color: gray;
-    color: white;
-}
-
-/* Content */
-
-article {
-    margin-top: 1em;
-    text-align: center;
-}
-
-article h2 {
-    font-size: 2em;
+#me {
+	max-width: 5vw;
 }
