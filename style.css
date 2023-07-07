@@ -2,8 +2,18 @@
 
 body {
 	background-color: #CDB989;
-	padding: 80px;
 	font-family: Arial, Helvetica, sans-serif;
+
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+#body2electricboogaloo {
+	/* two flexboxes :D */
+	display: flex;
+	align-items: center;
 }
 
 a {
@@ -13,18 +23,19 @@ a {
 }
 
 #me {
-	margin: 8px;
+	padding: 5px;
 	vertical-align: middle;
-	max-width: 5vw;
+	max-width: 8%;
+	min-width: 2%;
 }
 
 @media only screen and (max-width: 620px) {
 	body {
+		display: block;
 		padding: 10px;
 	}
 
 	#me {
-		/* vertical-align: text-middle; */
 		max-width: 10vw;
 	}
 }
