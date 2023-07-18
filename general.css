@@ -1,3 +1,4 @@
+<<<<<<< HEAD:general.css
 body {
 	background-color: #CDB989;
 	padding: 80px;
@@ -15,3 +16,46 @@ a {
 		padding: 10px;
 	}
 }
+=======
+/* enough CSS for today */
+
+body {
+	background-color: #CDB989;
+	font-family: Arial, Helvetica, sans-serif;
+
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+#body2electricboogaloo {
+	/* two flexboxes :D */
+	display: flex;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #8B5600;
+}
+
+#me {
+	padding: 5px;
+	vertical-align: middle;
+	max-width: 8%;
+	min-width: 2%;
+}
+
+@media only screen and (max-width: 620px) {
+	body {
+		display: block;
+		padding: 10px;
+	}
+
+	#me {
+		max-width: 10vw;
+	}
+}
+>>>>>>> f3e35bd953533e7f8264aa40cadb5bb9dfcbe5f6:style.css
