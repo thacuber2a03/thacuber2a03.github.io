@@ -6,7 +6,7 @@ function randomColor() {
 // this is probably hacky as hell but I don't know how else can I do this so
 let back = document.createElement("a");
 back.text = "Go back home";
-back.href = "../index.html";
+back.href = "https://thacuber.github.io/";
 document.querySelector("body").appendChild(back);
 
 let canvas = document.getElementById("troll-canvas");
