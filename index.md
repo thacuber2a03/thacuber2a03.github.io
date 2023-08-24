@@ -3,8 +3,6 @@ title: thacuber2a03
 layout: default
 ---
 
-<link rel="stylesheet" href="main.css" />
-
 ![a 1x1 rubik\'s cube with eyes](assets/images/TC.png) hey, what\'s up.
 ===========================================================================
 
