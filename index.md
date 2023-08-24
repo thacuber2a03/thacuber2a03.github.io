@@ -1,11 +1,12 @@
 ---
 title: thacuber2a03
 layout: default
+permalink: thacuber2a03.com
 ---
 
 _there was an image here but until I manage to include the related css for it I'm leaving this in._
 
-hey, what\'s up.
+hey, what's up.
 ===========================================================================
 
 I do a bunch of stuff online:
