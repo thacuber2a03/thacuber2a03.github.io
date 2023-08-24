@@ -3,14 +3,17 @@ title: thacuber2a03
 layout: default
 ---
 
-![a 1x1 rubik\'s cube with eyes](assets/images/TC.png) hey, what\'s up.
+_there was an image here but until I manage to include the related css for it I'm leaving this in._
+
+hey, what\'s up.
 ===========================================================================
 
 I do a bunch of stuff online:
 
-- I\'m in Mastodon.
-- [I\'m also in cohost.](https://cohost.org/thacuber2a03) not exactly
-    active though.
+- [I'm in Mastodon.](https://mastodon.gamedev.site/@thacuber2a03)
+- [I'm also in cohost.](https://cohost.org/thacuber2a03) not exactly
+  active though.
+- legally (not really) I have to plug [my Twitter account](https://twitter.com/thacuber2a03) (I'm not calling it X, cope)
 - [I make music.](https://youtube.com/@thacuber2a03)
 - [and code.](https://github.com/thacuber2a03)
 - [aaaaand make games.](https://thacuber.itch.io)
