@@ -1,5 +1,6 @@
 ---
 title: thacuber2a03
+layout: mainpage
 ---
 
 _there was an image here but until I manage to include the related css for it I'm leaving this in._
