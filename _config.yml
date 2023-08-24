@@ -1,1 +1,7 @@
 name: thacuber2a03
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

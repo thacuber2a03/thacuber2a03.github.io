@@ -1,6 +1,5 @@
 ---
 title: fantroll
-layout: default
 ---
 
 <canvas id="troll-canvas" width="400" height="400">

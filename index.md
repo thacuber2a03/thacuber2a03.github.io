@@ -1,6 +1,5 @@
 ---
 title: thacuber2a03
-layout: default
 ---
 
 _there was an image here but until I manage to include the related css for it I'm leaving this in._
@@ -33,7 +32,7 @@ you probably know me from:
 
 I also have other stuff here:
 
-- [fantroll](things/fantroll/fantroll.html)
+- [fantroll](/things/fantroll/)
 
 this page is, of course, [open
 source.](https://github.com/thacuber2a03/thacuber2a03.github.io)
