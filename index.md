@@ -34,6 +34,7 @@ you probably know me from:
 I also have other stuff here:
 
 - [fantroll](/things/fantroll/)
+- [a JSON lexer written in Rust](/things/jsonparser/).
 
 this page is, of course, [open
 source.](https://github.com/thacuber2a03/thacuber2a03.github.io)
