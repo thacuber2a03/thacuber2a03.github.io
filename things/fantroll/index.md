@@ -1,5 +1,6 @@
 ---
 title: fantroll
+permalink: /fantroll/
 ---
 
 <!--

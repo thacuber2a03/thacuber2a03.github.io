@@ -1,5 +1,6 @@
 ---
 name: a Rust noob writes a JSON lexer
+permalink: /jsonparser/
 ---
 
 # a Rust noob writes a JSON lexer
