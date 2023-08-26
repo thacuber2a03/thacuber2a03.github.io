@@ -3,6 +3,8 @@ name: a Rust noob writes a JSON lexer
 permalink: /jsonlexer
 ---
 
+@include "native.css";
+
 # a Rust noob writes a JSON lexer
 
 so you want to write a JSON lexer in Rust? ...yeah, me too. I'm just documenting how I'm doing it.

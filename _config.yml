@@ -1,7 +1,4 @@
 title: thacuber2a03
-kramdown:
-  syntax_highlighter: rouge
-
 defaults:
   -
     scope:

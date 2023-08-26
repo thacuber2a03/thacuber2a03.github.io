@@ -1,3 +1,5 @@
+@include "css/highlighting/native.css";
+
 body {
 	background-color: #CDB989;
 	padding: 80px;
