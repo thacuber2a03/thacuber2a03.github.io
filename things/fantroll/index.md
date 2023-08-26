@@ -12,4 +12,4 @@ permalink: /fantroll/
     this thing uses JavaScript to work.
     <a href="/">click here to go home</a> if you'd rather not use it instead.
 </canvas>
-<script src="fantroll.js"></script>
+<script src="/things/fantroll/fantroll.js"></script>

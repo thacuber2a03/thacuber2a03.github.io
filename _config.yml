@@ -1,7 +1,11 @@
 title: thacuber2a03
+kramdown:
+  syntax_highlighter: rouge
+
 defaults:
   -
     scope:
       path: ""
     values:
       layout: "general"
+

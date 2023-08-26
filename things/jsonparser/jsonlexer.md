@@ -1,6 +1,6 @@
 ---
 name: a Rust noob writes a JSON lexer
-permalink: /jsonparser/
+permalink: /jsonlexer
 ---
 
 # a Rust noob writes a JSON lexer
@@ -12,7 +12,7 @@ I'll be following the specifcation listed in [the format's official page](https:
 
 I'll just make a simple frontend for now.
 
-```rust
+{% highlight rust %}
 use std::env;
 use std::process;
 use std::fs;
@@ -35,11 +35,11 @@ fn main() -> io::Result<()> {
 
     Ok(())
 }
-```
+{% endhighlight %}
 
 now, onto the actual thing:
 
-```rust
+{% highlight rust %}
 use std::io::Read;
 
 #[derive(Debug)]
@@ -54,12 +54,12 @@ impl<R: Read> Lexer<R> {
         }
     }
 }
-```
+{% endhighlight %}
 
 not much going on over here right now. I added a loop in `main.rs` that goes through each token and prints it, just to test it.
 I also switched to using a `BufReader`, as the lexer accepts anything that implements `Read`:
 
-```rust
+{% highlight rust %}
 mod lexer;
 
 use std::env;
@@ -82,7 +82,7 @@ fn main() -> io::Result<()> {
 
     Ok(())
 }
-```
+{% endhighlight %}
 
 I'm going to use an on-demand style lexer as that is much faster.
 not exactly sure if in performance, but rather in usage: it works _and_ reads like an iterator.
@@ -90,7 +90,7 @@ I should probably also implement `Iterator` for `Lexer`...
 
 anyways, gotta make a `Token` enum:
 
-```rust
+{% highlight rust %}
 #[derive(Debug)]
 pub enum Token {
     True,
@@ -107,23 +107,23 @@ pub enum Token {
     Number(f32),
     String(String),
 }
-```
+{% endhighlight %}
 
 that wasn't hard, just a bit tedious.
 
 and it's over here where I realized I _can_ implement `Iterator` for `Lexer`;
 I basically already have the exact same structure as the trait, it's just adding the type alias and implementing `next`:
 
-```rust
+{% highlight rust %}
 impl<R: Read> Iterator for Lexer<R> {
     type Item = R;
     fn next(&mut self) -> Option<Self::Item> {
         todo!();
     }
 }
-```
+{% endhighlight %}
 
-```rust
+{% highlight rust %}
 fn main() -> std::io::Result<()> {
     // ...
 
@@ -133,12 +133,12 @@ fn main() -> std::io::Result<()> {
 
     // ...
 }
-```
+{% endhighlight %}
 
 now I'll focus on implementing `Lexer::next`.
 first, the single character tokens.
 
-```rust
+{% highlight rust %}
 fn next(&mut self) -> Option<Self::Item> {
     match self.read_char() {
         Some(c) => Some(match c {
@@ -153,10 +153,10 @@ fn next(&mut self) -> Option<Self::Item> {
         None => None,
     }
 }
-```
+{% endhighlight %}
 
 they use this `read_char` function:
-```rust
+{% highlight rust %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -168,11 +168,13 @@ impl<R: Read> Lexer<R> {
             None
         }
     }
+
+    // ...
 }
-```
+{% endhighlight %}
 
 next, `true`, `false` and `null`:
-```rust
+{% highlight rust %}
 impl<R> Iterator for Lexer<R> {
     // ...
 
@@ -187,10 +189,10 @@ impl<R> Iterator for Lexer<R> {
         }
     }
 }
-```
+{% endhighlight %}
 
 another helper method:
-```rust
+{% highlight rust %}
 fn check_id(&mut self, c: char) -> Token {
     let mut s = String::from(c);
     loop {
@@ -208,13 +210,13 @@ fn check_id(&mut self, c: char) -> Token {
         _ => panic!("expected true, false or null, got {s}"),
     }
 }
-```
+{% endhighlight %}
 
 and now that we're dealing with errors more frequently,
 I should probably implement an error method instead of just panicking...
 
 first, I'd need to store the current position of the lexer:
-```rust
+{% highlight rust %}
 #[derive(Debug)]
 pub struct Lexer<R> {
     input: R,
@@ -233,10 +235,10 @@ impl<R: Read> Lexer<R> {
 
     // ...
 }
-```
+{% endhighlight %}
 
 then, a simple method for reporting them and exiting gracefully (not exactly):
-```rust
+{% highlight rust %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -247,7 +249,7 @@ impl<R: Read> Lexer<R> {
 
     // ...
 }
-```
+{% endhighlight %}
 
 I recently learned about `!`... it's apparently a type you return when your function or block or whatever isn't ever going to return.
 
@@ -257,7 +259,7 @@ anyways, the `line` and `col` offsets are going to be changed in `Lexer::next`, 
 
 I also conveniently forgot to skip whitespace, so there's that.
 
-```rust
+{% highlight rust %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
 
@@ -289,11 +291,11 @@ impl<R: Read> Iterator for Lexer<R> {
         }
     }
 }
-```
+{% endhighlight %}
 
 now, replace all `panic!` calls with `self.error` calls.
 
-```rust
+{% highlight rust %}
 fn check_id(&mut self, c: char) -> Token {
     // ...
     loop {
@@ -308,9 +310,9 @@ fn check_id(&mut self, c: char) -> Token {
         _ => self.error(format!("expected true, false or null, got {s}")),
     }
 }
-```
+{% endhighlight %}
 
-```rust
+{% highlight rust %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
 
@@ -323,11 +325,11 @@ impl<R: Read> Iterator for Lexer<R> {
         }
     }
 }
-```
+{% endhighlight %}
 
 at this point, I realize I need a `Lexer::peek_char` method, as using `Lexer::read_char` over at `Lexer::check_id` is bound to break down if, well, *anything* is scanned, as it can potentially skip another important character, such as `"` or `{`/`[`. no sane encoder outputs JSON without some whitespace, but there *are* such encoders, and people happen to also write JSON files manually, soooo...
 
-```rust
+{% highlight rust %}
 impl<R: Read> Lexer<R> {
     //...
 
@@ -353,11 +355,11 @@ impl<R: Read> Lexer<R> {
 
     // ...
 }
-```
+{% endhighlight %}
 
 now, it's just fixing `Lexer::check_id`...
 
-```rust
+{% highlight rust %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -373,11 +375,11 @@ impl<R: Read> Lexer<R> {
 
     // ...
 }
-```
+{% endhighlight %}
 
 and now that we're at it, rewrite the whitespace skip loop:
 
-```rust
+{% highlight rust %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
     fn next(&mut self) -> Option<Self::Item> {
@@ -404,11 +406,11 @@ impl<R: Read> Iterator for Lexer<R> {
         }
     }
 }
-```
+{% endhighlight %}
 
 and now, the stars of the show: numbers and strings.
 
-```rust
+{% highlight rust %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
 
@@ -419,11 +421,11 @@ impl<R: Read> Iterator for Lexer<R> {
         }
     }
 }
-```
+{% endhighlight %}
 
 this method doesn't recieve any arguments because, well, how else do you start strings in JSON
 
-```rust
+{% highlight rust %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -441,11 +443,11 @@ impl<R: Read> Lexer<R> {
 
     // ...
 }
-```
+{% endhighlight %}
 
 aaaand another helper method for reading escape sequences.
 
-```rust
+{% highlight rust %}
 impl<R: Read> Lexer<R> {
     fn read_escape(&mut self) -> char {
         match self.read_char() {
@@ -482,11 +484,11 @@ impl<R: Read> Lexer<R> {
         }
     }
 }
-```
+{% endhighlight %}
 
 ...and it's over here I discover `Option::map`. oh well.
 
-```rust
+{% highlight rust %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
     
@@ -498,11 +500,11 @@ impl<R: Read> Iterator for Lexer<R> {
         })
     }
 }
-```
+{% endhighlight %}
 
 and finally, numbers:
 
-```rust
+{% highlight rust %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -528,13 +530,13 @@ impl<R: Read> Lexer<R> {
 
     // ...
 }
-```
+{% endhighlight %}
 
 I'm going to let Rust's number parser do the parsing for now, but I should definitely parse it manually later.
 
 and it's at this moment I realize I could modify `line` and `col` in `Lexer::read_char`. yeah.
 
-```rust
+{% highlight rust %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
 
@@ -552,10 +554,12 @@ impl<R: Read> Iterator for Lexer<R> {
         // ...
     }
 }
-```
+{% endhighlight %}
 
-```rust
+{% highlight rust %}
 impl<R: Read> Lexer<R> {
+    // ...
+
     fn read_char(&mut self) -> Option<char> {
         let c = if self.stored_char.is_some() {
             self.stored_char.take().unwrap()
@@ -578,23 +582,25 @@ impl<R: Read> Lexer<R> {
 
         Some(c)
     }
+
+    // ...
 }
-```
+{% endhighlight %}
 
 and yeah, that would be everything for this lexer! let's try it...
 
 test file:
-```json
+{% highlight json %}
 {
 	"number": 1,
 	"boolean": true,
 	"array_with_stuff": [ 1, false, null, {} ]
 }
-```
+{% endhighlight %}
 
 output:
 
-```
+{% highlight bash %}
 $ cargo run assets/test.json
    Compiling jsonparser v0.1.0 (/home/thacuber2a03/Documentos/code/rust/jsonparser)
     Finished dev [unoptimized + debuginfo] target(s) in 1.33s
@@ -620,13 +626,13 @@ RBrace
 RBracket
 RBrace
 error: unexpected character (NUL) (code 0), at (11, 3)
-```
+{% endhighlight %}
 
 ...
 
 I'll just hardcode a special case for NUL.
 
-```
+{% highlight rust %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
     
@@ -640,11 +646,11 @@ impl<R: Read> Iterator for Lexer<R> {
         // ...
     }
 }
-```
+{% endhighlight %}
 
 again...
 
-```
+{% highlight bash %}
 $ cargo run assets/test.json
     Finished dev [unoptimized + debuginfo] target(s) in 0.03s
      Running `target/debug/jsonparser assets/test.json`
@@ -668,7 +674,7 @@ LBrace
 RBrace
 RBracket
 RBrace
-```
+{% endhighlight %}
 
 and this time, it works!
 
