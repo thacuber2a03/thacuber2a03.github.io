@@ -12,7 +12,7 @@ I'll be following the specifcation listed in [the format's official page](https:
 
 I'll just make a simple frontend for now.
 
-{% highlight rust %}
+{% highlight rust linenos %}
 use std::env;
 use std::process;
 use std::fs;
@@ -39,7 +39,7 @@ fn main() -> io::Result<()> {
 
 now, onto the actual thing:
 
-{% highlight rust %}
+{% highlight rust linenos %}
 use std::io::Read;
 
 #[derive(Debug)]
@@ -59,7 +59,7 @@ impl<R: Read> Lexer<R> {
 not much going on over here right now. I added a loop in `main.rs` that goes through each token and prints it, just to test it.
 I also switched to using a `BufReader`, as the lexer accepts anything that implements `Read`:
 
-{% highlight rust %}
+{% highlight rust linenos %}
 mod lexer;
 
 use std::env;
@@ -90,7 +90,7 @@ I should probably also implement `Iterator` for `Lexer`...
 
 anyways, gotta make a `Token` enum:
 
-{% highlight rust %}
+{% highlight rust linenos %}
 #[derive(Debug)]
 pub enum Token {
     True,
@@ -114,7 +114,7 @@ that wasn't hard, just a bit tedious.
 and it's over here where I realized I _can_ implement `Iterator` for `Lexer`;
 I basically already have the exact same structure as the trait, it's just adding the type alias and implementing `next`:
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     type Item = R;
     fn next(&mut self) -> Option<Self::Item> {
@@ -123,7 +123,7 @@ impl<R: Read> Iterator for Lexer<R> {
 }
 {% endhighlight %}
 
-{% highlight rust %}
+{% highlight rust linenos %}
 fn main() -> std::io::Result<()> {
     // ...
 
@@ -138,7 +138,7 @@ fn main() -> std::io::Result<()> {
 now I'll focus on implementing `Lexer::next`.
 first, the single character tokens.
 
-{% highlight rust %}
+{% highlight rust linenos %}
 fn next(&mut self) -> Option<Self::Item> {
     match self.read_char() {
         Some(c) => Some(match c {
@@ -156,7 +156,7 @@ fn next(&mut self) -> Option<Self::Item> {
 {% endhighlight %}
 
 they use this `read_char` function:
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -174,7 +174,7 @@ impl<R: Read> Lexer<R> {
 {% endhighlight %}
 
 next, `true`, `false` and `null`:
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R> Iterator for Lexer<R> {
     // ...
 
@@ -192,7 +192,7 @@ impl<R> Iterator for Lexer<R> {
 {% endhighlight %}
 
 another helper method:
-{% highlight rust %}
+{% highlight rust linenos %}
 fn check_id(&mut self, c: char) -> Token {
     let mut s = String::from(c);
     loop {
@@ -216,7 +216,7 @@ and now that we're dealing with errors more frequently,
 I should probably implement an error method instead of just panicking...
 
 first, I'd need to store the current position of the lexer:
-{% highlight rust %}
+{% highlight rust linenos %}
 #[derive(Debug)]
 pub struct Lexer<R> {
     input: R,
@@ -238,7 +238,7 @@ impl<R: Read> Lexer<R> {
 {% endhighlight %}
 
 then, a simple method for reporting them and exiting gracefully (not exactly):
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -259,7 +259,7 @@ anyways, the `line` and `col` offsets are going to be changed in `Lexer::next`, 
 
 I also conveniently forgot to skip whitespace, so there's that.
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
 
@@ -295,7 +295,7 @@ impl<R: Read> Iterator for Lexer<R> {
 
 now, replace all `panic!` calls with `self.error` calls.
 
-{% highlight rust %}
+{% highlight rust linenos %}
 fn check_id(&mut self, c: char) -> Token {
     // ...
     loop {
@@ -312,7 +312,7 @@ fn check_id(&mut self, c: char) -> Token {
 }
 {% endhighlight %}
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
 
@@ -329,7 +329,7 @@ impl<R: Read> Iterator for Lexer<R> {
 
 at this point, I realize I need a `Lexer::peek_char` method, as using `Lexer::read_char` over at `Lexer::check_id` is bound to break down if, well, *anything* is scanned, as it can potentially skip another important character, such as `"` or `{`/`[`. no sane encoder outputs JSON without some whitespace, but there *are* such encoders, and people happen to also write JSON files manually, soooo...
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Lexer<R> {
     //...
 
@@ -359,7 +359,7 @@ impl<R: Read> Lexer<R> {
 
 now, it's just fixing `Lexer::check_id`...
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -379,7 +379,7 @@ impl<R: Read> Lexer<R> {
 
 and now that we're at it, rewrite the whitespace skip loop:
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
     fn next(&mut self) -> Option<Self::Item> {
@@ -410,7 +410,7 @@ impl<R: Read> Iterator for Lexer<R> {
 
 and now, the stars of the show: numbers and strings.
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
 
@@ -425,7 +425,7 @@ impl<R: Read> Iterator for Lexer<R> {
 
 this method doesn't recieve any arguments because, well, how else do you start strings in JSON
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -447,7 +447,7 @@ impl<R: Read> Lexer<R> {
 
 aaaand another helper method for reading escape sequences.
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Lexer<R> {
     fn read_escape(&mut self) -> char {
         match self.read_char() {
@@ -488,7 +488,7 @@ impl<R: Read> Lexer<R> {
 
 ...and it's over here I discover `Option::map`. oh well.
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
     
@@ -504,7 +504,7 @@ impl<R: Read> Iterator for Lexer<R> {
 
 and finally, numbers:
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -536,7 +536,7 @@ I'm going to let Rust's number parser do the parsing for now, but I should defin
 
 and it's at this moment I realize I could modify `line` and `col` in `Lexer::read_char`. yeah.
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
 
@@ -556,7 +556,7 @@ impl<R: Read> Iterator for Lexer<R> {
 }
 {% endhighlight %}
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Lexer<R> {
     // ...
 
@@ -632,7 +632,7 @@ error: unexpected character (NUL) (code 0), at (11, 3)
 
 I'll just hardcode a special case for NUL.
 
-{% highlight rust %}
+{% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
     
