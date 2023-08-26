@@ -116,7 +116,7 @@ I basically already have the exact same structure as the trait, it's just adding
 
 {% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
-    type Item = R;
+    type Item = Token;
     fn next(&mut self) -> Option<Self::Item> {
         todo!();
     }
