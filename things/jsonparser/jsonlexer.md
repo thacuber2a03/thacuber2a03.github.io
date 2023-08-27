@@ -75,7 +75,7 @@ fn main() -> io::Result<()> {
     let f = File::open(&argv[1])?;
     let r = BufReader::new(f);
     let lexer = Lexer::new(r);
-    
+
     while let Some(token) = lexer.next() {
         println!("{token:?}");
     }
@@ -491,7 +491,7 @@ impl<R: Read> Lexer<R> {
 {% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
-    
+
     fn next(&mut self) -> Option<Self::Item> {
         // ...
 
@@ -512,8 +512,8 @@ impl<R: Read> Lexer<R> {
         let mut s = String::from(n);
         while let Some(c) = self.read_char() {
             match c {
-                c if c.is_ascii_digit() => s.push(c),
-                '-' | '+' | 'E' | 'e' | '.' => s.push(c),
+                c if c.is_ascii_digit() => s.push(self.read_char().unwrap()),
+                '-' | '+' | 'E' | 'e' | '.' => s.push(self.read_char().unwrap()),
                 _ => break,
             }
         }
@@ -635,7 +635,7 @@ I'll just hardcode a special case for NUL.
 {% highlight rust linenos %}
 impl<R: Read> Iterator for Lexer<R> {
     // ...
-    
+
     fn next(&mut self) -> Option<Token> {
         // ...
 
