@@ -1,6 +1,7 @@
 ---
 title: fireworks
 permalink: /fireworks
+layout: default
 render_with_liquid: false
 ---
 
