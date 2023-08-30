@@ -34,6 +34,7 @@ you probably know me from:
 I also have other stuff here:
 
 - [fantroll](/fantroll)
+- [fireworks](/fireworks), a small unofficial WASM-4 demo written in Rust.
 - [a JSON lexer written in Rust](/jsonlexer).
 
 this page is, of course, [open
