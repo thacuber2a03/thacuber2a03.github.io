@@ -5,6 +5,7 @@ layout: default
 render_with_liquid: false
 ---
 
+{% raw %}
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -86,3 +87,4 @@ function*Kt(t,e){if(void 0!==t){let i=0;for(const s of t)yield e(s,i++)}}t.App=c
   <wasm4-app></wasm4-app>
 </body>
 </html>
+{% endraw %}
