@@ -1,6 +1,7 @@
 ---
 title: fantroll
 permalink: /fantroll/
+layout: default
 ---
 
 <!--

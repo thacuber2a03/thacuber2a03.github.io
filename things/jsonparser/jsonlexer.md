@@ -1,6 +1,7 @@
 ---
 name: a Rust noob writes a JSON lexer
 permalink: /jsonlexer
+layout: default
 ---
 
 # a Rust noob writes a JSON lexer

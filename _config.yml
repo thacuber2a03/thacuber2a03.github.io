@@ -2,10 +2,10 @@ title: thacuber2a03
 url: https://thacuber2a03.com
 highlighter: rouge
 markdown: kramdown
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "general"
 
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#     values:
+#       layout: "general"
