@@ -1,6 +1,7 @@
 ---
 title: fireworks
 permalink: /fireworks
+render_with_liquid: false
 ---
 
 <!doctype html>
