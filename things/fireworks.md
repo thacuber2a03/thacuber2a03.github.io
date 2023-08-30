@@ -4,7 +4,7 @@ permalink: /fireworks
 render_with_liquid: false
 ---
 
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="utf-8">
