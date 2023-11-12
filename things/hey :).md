@@ -6,7 +6,7 @@ layout: default
 
 # "hey :)" written in a bunch of languages
 
-note: these are not ordered in any particular way, and are highlighted with the best matching syntax highlighter if there doesn't exist any for it.
+note: these are not ordered in any particular way, and I try to highlight them with the best matching syntax highlighter if there doesn't exist any for it.
 
 ### C
 ```c
@@ -84,12 +84,12 @@ Console.WriteLine("hey :)");
 ```
 
 ### [Wren](https://wren.io)
-```wren
+```java
 System.print("hey :)")
 ```
 
 ### [Odin](https://odin-lang.org/)
-```odin
+```go
 package main
 
 import "core:fmt"
