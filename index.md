@@ -36,6 +36,7 @@ I also have other stuff here:
 - [fantroll](/fantroll)
 <!-- - [fireworks](/fireworks), a small unofficial WASM-4 demo written in Rust. -->
 - [a JSON lexer written in Rust](/jsonlexer).
+- [hey :)](/hey :))
 
 this page is, of course, [open
 source.](https://github.com/thacuber2a03/thacuber2a03.github.io)
