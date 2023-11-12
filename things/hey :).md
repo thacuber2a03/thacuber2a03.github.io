@@ -113,18 +113,7 @@ fn main() {
 ```
 
 ### Brainfuck
-this code is only slightly optimized. cells 0 to 2 are used, cell 0 is acc
-
-```brainfuck
-+++++++++++++++++++[->+++++++++++++++++++<]>-. 'h'
----.                                           'e'
-<++++++++++[->++<]>.                           'y'
-<++++++++++++++++[->>++>++<<<]>>.              ' '
-<<+++++++++++++[->>++<<]>>.                    ':'
->+++++++++.                                    ')'
-```
-
-optimized for memory usage (only cells 0 and 1 are used):
+this code is only slightly optimized. cells 0 and 1 are used, 0 is acc
 ```brainfuck
 +++++++++++++++++++[->+++++++++++++++++++<]>-. 'h'
 ---.                                           'e'
