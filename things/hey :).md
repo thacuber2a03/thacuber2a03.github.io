@@ -1,3 +1,9 @@
+---
+title: hey :)
+permalink: /hey
+layout: default
+---
+
 # "hey :)" written in a bunch of languages
 
 note: these are not ordered in any particular way, and are highlighted with the best matching syntax highlighter if there doesn't exist any for it.
