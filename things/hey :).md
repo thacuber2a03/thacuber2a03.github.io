@@ -137,8 +137,9 @@ echo "hey :)"
 ```tal
 |0100
   ;hey pstr
+BRK
 
-@hey "hey 20 ":)
+@hey "hey 20 ":) $1
 
 ( snippet taken from https://wiki.xxiivv.com/site/uxntal_library.html )
 @pstr ( str* -- )
@@ -310,4 +311,31 @@ ELSE ; smiley is smiley
 
 ENDC
 TilesEnd:
+```
+
+### Go
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("hey :)")
+}
+```
+
+### [Uiua](https://www.uiua.org)
+if you want to cheat it with the repl:
+```uiua
+"hey :)"
+```
+otherwise:
+```uiua
+&p "hey :)"
+```
+
+### APL
+I have no idea how are you supposed to do this one without modifying the language itself, but by using Dyalog you can do:
+```apl
+]Display 'hey :)'
 ```
