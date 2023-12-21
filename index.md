@@ -10,7 +10,7 @@ hey, what's up.
 
 I do a bunch of stuff online:
 
-- [I'm in Mastodon.](https://mastodon.gamedev.place/@thacuber2a03)
+- <a rel="me" href="https://mastodon.gamedev.place/@thacuber2a03">I'm in Mastodon.</a>
 - [I'm also in cohost.](https://cohost.org/thacuber2a03) not exactly
   active though.
 - legally (not really) I have to plug [my Twitter account](https://twitter.com/thacuber2a03) (I'm not calling it X, cope)
