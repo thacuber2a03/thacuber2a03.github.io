@@ -1,0 +1,115 @@
+---
+title: page1
+permalink: /page1/
+layout: default
+---
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TC's HTML Adventure</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="script.js">
+	</head>
+	<body>
+		<header>
+			<h1>My HTML adventure</h1>
+			<p>
+				I want to make webpages. I am starting to learn HTML
+				and I'll document all my HTML progress in this page.
+			</p>
+		</header>
+
+		<!-- First articles -->
+		<article class="first-articles">
+			<h2>Article 1: The first article</h2>
+			<p>
+				This is the first article.
+				Yeah, it's not really that amazing but
+				it's a first article so...
+			</p>
+		</article>
+		<article class="first-articles" id="a2">
+			<h2>Article 2: CSS stylishing</h2>
+			<p>
+				This whole article's paragraphs are totally blue.
+				Just amazing.
+				Although <strong>strong</strong> text is... different.
+			</p>
+		</article>
+		<article class="first-articles" id="a3">
+			<h2>Article 3: CSS3</h2>
+			<p>
+				I have achieved smooth animations and 3D projections.
+				<br/>
+				There'll be some demos below for you to check out.
+			</p>
+			<p>
+				Hover over the rectangle below to resize it smoothly.
+			</p>
+			<div id="animated-rect">I get bigger</div>
+			<p>Round rectangle :D</p>
+			<div id="round-rect">I am round</div>
+		</article>
+
+		<!-- New articles -->
+				
+		<div class="new-page">
+			<article class="new-articles" id="a4">
+				<h2>Article 4: Nice looking page</h2>
+				<p>
+					From now on, this page will look so much better.
+					I think so.
+				</p>
+			</article>
+			<article class="new-articles" id="a5">
+				<h2>Article 5: Scalable Vector Graphics</h2>
+				<p>
+					I'll start abbreviating "Article X" to "AX" for simplicity.
+					<br/>
+					This is a circle made with SVG.
+				</p>
+				<svg width=200px height=200px><circle cx=100px cy=100px r=100px fill=green></circle></svg>
+				<p>
+					This is a small logo also made with SVG.
+				</p>
+				<svg width="200" height="200">
+					<circle cx=100px cy=100px r=55px fill=green></circle>		
+					<rect x="80" y="80" width="40" height="40"
+						style="fill: none; stroke:black; stroke-width: 20px;"/>
+					<polygon points="0 100 100 200 200 100 100 0"
+						style="fill:none; stroke:black; stroke-width: 20px;"/>
+				</svg>
+				<p id="disclamer">
+					<strong>DISCLAMER:</strong>
+					I have no idea if this logo is already used.
+					If it is, and it is bad / I can't use it without permission / any other reason, please let me know.
+				</p>
+			</article>
+			<article class="new-articles" id="a6">
+				<h2>A6: Animating Scalable Vector Graphics</h2>
+				<p>
+					I've animated the logo i made earlier.
+				</p>	
+				<svg width="200" height="200" id="animated-svg">
+					<circle cx=100px cy=100px r=55px fill=green></circle>		
+					<rect x="80" y="80" width="40" height="40"
+						style="fill: none; stroke:black; stroke-width: 20px;"/>
+					<polygon points="0 100 100 200 200 100 100 0"
+						style="fill:none; stroke:black; stroke-width: 20px;"/>
+				</svg>
+				<p id="disclamer">
+					<strong>DISCLAMER:</strong>
+					Check above article.
+				</p>
+			</article>
+			<footer class="new-articles">
+				<a href="https://thacuber.itch.io">my itch.io game page</a>
+				<br/>
+				<a href="https://twitter.com/thacuber2a03">my twttr</a>
+				<br/>
+				<a href="https://youtube.com/c/thacuber">i put my music here</a>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,115 @@
+/* i.e. first page */
+
+body {
+	margin: auto;
+	padding: 10px;
+	border: 20px;
+	background-color: black;
+}
+
+/* header */
+
+header {
+	background-color: lightgreen;
+}
+
+header h1 {
+	color: green;
+}
+
+/* articles */
+
+.first-articles {
+	background-color: lightgray;
+}
+
+/* footer */
+
+footer {
+	background-color: darkgray;
+	color: white;
+}
+
+/* article 2 */
+
+#a2 p {
+	color: blue;
+}
+
+#a2 strong {
+	background-color: green;
+	color: white;
+}
+
+/* article 3 */
+
+#animated-rect {
+	text-align: center;
+	position: relative;
+	bottom: 10px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	background: #32CD32;
+	transition: width 0.5s ease-in-out;
+}
+
+#animated-rect:hover {
+	width: 98%;
+}
+
+#round-rect {
+	background-color: #32CD32;
+	border: 5px solid #32CD32;
+	position: relative;
+	top: -10px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10%;
+}
+
+/* article 4 onwards */
+
+.new-page {
+	background: #eee;
+}
+
+.new-page ul {
+	text-align: center;
+}
+
+.new-page a {
+	transition: all 0.25s ease-in-out;
+	color: #777;
+}
+
+.new-page a:hover {
+	color: #DDD;
+	background-color: #777;
+}
+
+.new-articles {
+	background-color: lightgray;
+	font-family: Helvetica;
+	border: 5px solid gray;
+	margin: 10px;
+	top: 20px;
+	bottom: 20px;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#disclamer {
+	color:red;
+	font-size: x-small;
+}
+
+@keyframes linearRotation {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+#animated-svg {
+	animation: linearRotation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s infinite both;
+}
