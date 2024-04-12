@@ -52,3 +52,8 @@ and [here's the button to go back](/).
 - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x).
 
 - [snaptoken](https://viewsourcecode.org/snaptoken).
+
+### changelog
+
+- 11/04/24: this page was made
+- 11/04/24, like half an hour later: changelog added
