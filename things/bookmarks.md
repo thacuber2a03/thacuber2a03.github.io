@@ -16,6 +16,7 @@ here are links to each category:
 - [game development](#gamedev)
 - [programming languages](#proglangs)
 - [programing language development](#pldev)
+- [systems programming stuff](#lowlevel)
 - [code repositories](#repos)
 - [other resource compilations](#infocomps)
 
@@ -27,11 +28,9 @@ and [here's the button to go back](/).
 
 - [Game Physics Cookbook](https://gamephysicscookbook.com/): a guide on the algebra and math behind physics engines. I don't like it a lot because it's written like if it was a highschool class, but it's nice regardless.
 
-<h3 id="pldev">programming language development</h3>
+<h2 id="lowlevel">systems programming stuff</h2>
 
-- [Crafting Interpreters](https://craftinginterpreters.com): a book that teaches the reader how to make two interpreters, a treewalk one written in Java and a bytecode one in C for an ad-hoc programming language called Lox. made by the creator of the Wren programming language.
-
-- [Let's Build a Compiler, by Jack W. Crenshaw](https://compilers.iecc.com/crenshaw/): a fifteen-part series written from 1988 to 1995 about writing a compiler from a custom-made language to Motorola 68k assembly language, in Pascal.
+- [Threaded code explained in C](https://dram.page/p/threaded-code). note, this link doesn't talk about multi-threaded programming, it talks about [threaded code](https://en.wikipedia.org/wiki/Threaded_code) which is a whole nother thing.
 
 <h3 id="proglangs">programming languages</h3>
 
@@ -40,6 +39,12 @@ and [here's the button to go back](/).
 - [funk](https://github.com/egordorichev/funk): a programming language that only has functions.
 
 - [Uxn](https://100r.co/site/uxn.html), and consequently, [Varvara](https://wiki.xxiivv.com/site/varvara.html): a really small computing stack, designed to be really resilient, under the idea of permacomputing. Varvara embeds Uxn and extends it with a variable-sized screen, file and console I/O, controller, mouse and keyboard input, audio capabilities, etc.
+
+<h3 id="pldev">programming language development</h3>
+
+- [Crafting Interpreters](https://craftinginterpreters.com): a book that teaches the reader how to make two interpreters, a treewalk one written in Java and a bytecode one in C for an ad-hoc programming language called Lox. made by the creator of the Wren programming language.
+
+- [Let's Build a Compiler, by Jack W. Crenshaw](https://compilers.iecc.com/crenshaw/): a fifteen-part series written from 1988 to 1995 about writing a compiler from a custom-made language to Motorola 68k assembly language, in Pascal.
 
 <h3 id="repos">code repositories</h3>
 
@@ -57,3 +62,4 @@ and [here's the button to go back](/).
 
 - 11/04/24: this page was made
 - 11/04/24, like half an hour later: changelog added
+- again, 11/04/24: added "Threaded code explained in C", new category "systems programming stuff", reordered categories
