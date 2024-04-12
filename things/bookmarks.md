@@ -34,7 +34,7 @@ and [here's the button to go back](/).
 
 <h2 id="proglangs">programming languages</h2>
 
-- [The Wren programming language](https://wren.io/): an elegant, object oriented programming language implemented in "around 4000 semicolons".
+- [Wren](https://wren.io/): an elegant, object oriented programming language implemented in "around 4000 semicolons".
 
 - [funk](https://github.com/egordorichev/funk): a programming language that only has functions.
 
@@ -70,3 +70,4 @@ all dates are in dd/mm/yy format
 - 12/04/24:
   - switch all headers to h2s
   - changed changelog format, added a note about dates
+  - the link for Wren had a name that was unnecesarily long
