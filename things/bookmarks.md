@@ -22,7 +22,7 @@ here are links to each category:
 
 and [here's the button to go back](/).
 
-<h3 id="gamedev">game development</h3>
+<h2 id="gamedev">game development</h2>
 
 - [Coding Math](https://www.youtube.com/@codingmath): a series of videos on various math topics related to and useful for game development, ranging from physics, to tweening, to a bit of UI. says "ongoing", but the last video released 7 years ago.
 
@@ -32,7 +32,7 @@ and [here's the button to go back](/).
 
 - [Threaded code explained in C](https://dram.page/p/threaded-code). note, this link doesn't talk about multi-threaded programming, it talks about [threaded code](https://en.wikipedia.org/wiki/Threaded_code) which is a whole nother thing.
 
-<h3 id="proglangs">programming languages</h3>
+<h2 id="proglangs">programming languages</h2>
 
 - [The Wren programming language](https://wren.io/): an elegant, object oriented programming language implemented in "around 4000 semicolons".
 
@@ -40,17 +40,17 @@ and [here's the button to go back](/).
 
 - [Uxn](https://100r.co/site/uxn.html), and consequently, [Varvara](https://wiki.xxiivv.com/site/varvara.html): a really small computing stack, designed to be really resilient, under the idea of permacomputing. Varvara embeds Uxn and extends it with a variable-sized screen, file and console I/O, controller, mouse and keyboard input, audio capabilities, etc.
 
-<h3 id="pldev">programming language development</h3>
+<h2 id="pldev">programming language development</h2>
 
 - [Crafting Interpreters](https://craftinginterpreters.com): a book that teaches the reader how to make two interpreters, a treewalk one written in Java and a bytecode one in C for an ad-hoc programming language called Lox. made by the creator of the Wren programming language.
 
 - [Let's Build a Compiler, by Jack W. Crenshaw](https://compilers.iecc.com/crenshaw/): a fifteen-part series written from 1988 to 1995 about writing a compiler from a custom-made language to Motorola 68k assembly language, in Pascal.
 
-<h3 id="repos">code repositories</h3>
+<h2 id="repos">code repositories</h2>
 
 - [rxi](https://github.com/rxi): makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. I am aware that this is a user, not a code repository.
 
-<h3 id="infocomps">other resource compilations</h3>
+<h2 id="infocomps">other resource compilations</h2>
 
 - [XXIIVV](https://wiki.xxiivv.com/site/index.html), written by the designer and developer of the Uxn computing stack, Devine Lu Linvega ([@neauoire@merveilles.town](https://merveilles.town/@neauoire)).
 
@@ -60,6 +60,13 @@ and [here's the button to go back](/).
 
 ### changelog
 
-- 11/04/24: this page was made
-- 11/04/24, like half an hour later: changelog added
-- again, 11/04/24: added "Threaded code explained in C", new category "systems programming stuff", reordered categories
+all dates are in dd/mm/yy format
+
+- 11/04/24:
+  - this page was made
+  - changelog added
+  - added "Threaded code explained in C", new category "systems programming stuff", reordered categories
+
+- 12/04/24:
+  - switch all headers to h2s
+  - changed changelog format, added a note about dates
