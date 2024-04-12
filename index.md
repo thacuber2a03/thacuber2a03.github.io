@@ -35,5 +35,6 @@ I also have other stuff here:
 - [hey :)](/hey)
 - [some facts about CS projects I find rather nice](/csfunfacts)
 - [an old html file I made while trying to learn HTML](/page1)
+- some [bookmarks](/bookmarks).
 
 this page is, of course, [open source.](https://github.com/thacuber2a03/thacuber2a03.github.io)

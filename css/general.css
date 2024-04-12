@@ -1,7 +1,7 @@
 @include "native.css";
 
 body {
-	background-color: #CDB989;
+	background-color: #cdb989;
 	padding: 80px;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,7 +9,13 @@ body {
 a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #8B5600;
+	color: #8b5600;
+}
+
+a:hover {
+	background: #8b5600;
+	color: #cdb989;
+	padding: 3px;
 }
 
 @media only screen and (max-width: 620px) {
