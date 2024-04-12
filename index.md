@@ -3,9 +3,7 @@ title: thacuber2a03
 layout: mainpage
 ---
 
-_there was an image here but until I manage to include the related css for it I'm leaving this in._
-
-hey, what's up.
+<img src="assets/images/TC.png" alt="an image of me" id="me"/> hey, what's up.
 ===========================================================================
 
 I do a bunch of stuff online:
