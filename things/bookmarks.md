@@ -52,7 +52,7 @@ and [here's the button to go back](/).
 
 <h2 id="infocomps">other resource compilations</h2>
 
-- [XXIIVV](https://wiki.xxiivv.com/site/index.html), written by the designer and developer of the Uxn computing stack, Devine Lu Linvega ([@neauoire@merveilles.town](https://merveilles.town/@neauoire)).
+- [XXIIVV](https://wiki.xxiivv.com/site/), written by the designer and developer of the Uxn computing stack, Devine Lu Linvega ([@neauoire@merveilles.town](https://merveilles.town/@neauoire)).
 
 - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x).
 
@@ -71,3 +71,4 @@ all dates are in dd/mm/yy format
   - switch all headers to h2s
   - changed changelog format, added a note about dates
   - the link for Wren had a name that was unnecesarily long
+  - wrong link to XXIIVV, it shouldn't go to the index, it should go to the homepage
