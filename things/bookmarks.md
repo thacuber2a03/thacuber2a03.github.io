@@ -54,7 +54,7 @@ and [here's the button to go back](/).
 
 <h2 id="repos">code repositories</h2>
 
-- [jonesforth, by Richard WM Jones](https://github.com/nornagon/jonesforth/): a literate FORTH implemented in one x86 file and one FORTH file.
+- [jonesforth, by Richard WM Jones](https://github.com/nornagon/jonesforth): a literate FORTH implemented in one x86 file and one FORTH file.
 
 - [rxi](https://github.com/rxi): makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. I am aware that this is a user, not a code repository.
 
@@ -93,3 +93,4 @@ all dates are in dd/mm/yy format
   - credited dramforever in the Threaded code link
   - reorganized category links
   - extended descriptions for snaptoken and Build Your Own X
+  - fixed jonesforth link (the issue was a single slash, jeez)
