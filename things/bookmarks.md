@@ -127,6 +127,8 @@ to the artist and the album the song is from, if applicable.
 
 - [Choose a License](https://choosealicense.com/): a listing of licenses, their permissions, conditions and limitations, and a full template copy of each. it also explains what might happen if your repository doesn't have a license.
 
+- [Blit](https://quiltro.org/blit.html): a stack-based virtual machine for making "bit art". made by Lobo Torres ([quiltro.org](https://quiltro.org))
+
 ### changelog
 
 all dates are in dd/mm/yy format
@@ -158,4 +160,5 @@ all dates are in dd/mm/yy format
   - reorder cats once again
   - add category: "some tunez"
   - added so much music I'm not even going to bother listing it up
-  - added "Choose a License"
+  - added "Choose a License", "Blit"
+  
