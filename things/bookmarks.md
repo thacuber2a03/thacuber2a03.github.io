@@ -1,5 +1,5 @@
 ---
-title: bookmarks
+title: "tc's bookmarks"
 permalink: /bookmarks
 layout: default
 ---
