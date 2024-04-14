@@ -10,11 +10,11 @@ this page hosts the various links to tools/games/resources/anything I find fun, 
 
 I describe just enough to explain each link, not going into too much detail unless I feel like commenting on it or if it would otherwise be hard to navigate/understand.
 
-they're not sorted in any order, but the category links are sorted alphabetically.
-here are links to each category:
+they're not sorted in any order, but the category links are sorted alphabetically. here are they:
 
 - [code repositories](#repos)
 - [game development](#gamedev)
+- [immediate gui](#imgui)
 - [programming languages](#proglangs)
 - [programing language development](#pldev)
 - [systems programming stuff](#lowlevel)
@@ -23,6 +23,20 @@ here are links to each category:
 - [other resource compilations](#infocomps)
 
 and [here's the button to go back](/).
+
+<h2 id="repos">code repositories</h2>
+
+- [jonesforth, by Richard WM Jones](https://github.com/nornagon/jonesforth): a public domain FORTH system implemented in one x86 file and one FORTH file that also doubles as a tutorial.
+
+- [rxi](https://github.com/rxi): makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. I am aware that this is a user, not a code repository.
+
+<h2 id="imgui">immediate gui</h2>
+
+there aren't as many resources about it as I'd like there to be
+
+- [Sol on Immediate Mode GUIs](https://solhsa.com/imgui): a tutorial on a simple IMGUI system in C that also has keyboard focus. written with SDL1 so you might want to translate most calls to SDL 2 or 3.
+
+- [microui, by rxi](https://github.com/rxi/microui): can't mention IMGUIs without mentioning this one. a tiny IMGUI system written in C with zero allocations that can render on anything that is able to draw rectangles and text.
 
 <h2 id="gamedev">game development</h2>
 
@@ -51,12 +65,6 @@ and [here's the button to go back](/).
 <h2 id="tinybins">small programs</h2>
 
 - [kilo, by antirez](https://github.com/antirez/kilo): a text editor with syntax highlighting and incremental search, implemented in 1000 lines of C code (as counted by `cloc`).
-
-<h2 id="repos">code repositories</h2>
-
-- [jonesforth, by Richard WM Jones](https://github.com/nornagon/jonesforth): a literate FORTH implemented in one x86 file and one FORTH file.
-
-- [rxi](https://github.com/rxi): makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. I am aware that this is a user, not a code repository.
 
 <h2 id="interwebz">other nice websites</h2>
 
@@ -94,3 +102,9 @@ all dates are in dd/mm/yy format
   - reorganized category links
   - extended descriptions for snaptoken and Build Your Own X
   - fixed jonesforth link (the issue was a single slash, jeez)
+  - added category: "immediate gui"
+  - added link: "Sol on Immediate GUIs", "microui by rxi"
+  - move "code repositories" back to align with its position on the category links section
+  - remove redundancy on text above category links
+  - extend jonesforth description
+  - missed a single m in "programming language development"
