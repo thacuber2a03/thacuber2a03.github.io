@@ -15,6 +15,7 @@ they're not sorted in any order, but the category links are sorted alphabeticall
 - [code repositories](#repos)
 - [game development](#gamedev)
 - [immediate gui](#imgui)
+- [some tunez](#music)
 - [programming languages](#proglangs)
 - [programing language development](#pldev)
 - [systems programming stuff](#lowlevel)
@@ -30,6 +31,12 @@ and [here's the button to go back](/).
 
 - [rxi](https://github.com/rxi): makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. I am aware that this is a user, not a code repository.
 
+<h2 id="gamedev">game development</h2>
+
+- [Coding Math](https://www.youtube.com/@codingmath): a series of videos on various math topics related to and useful for game development, ranging from physics, to tweening, to a bit of UI. says "ongoing", but the last video released 7 years ago.
+
+- [Game Physics Cookbook](https://gamephysicscookbook.com/): a guide on the algebra and math behind physics engines. I don't like it a lot because it's written like if it was a highschool class, but it's nice regardless.
+
 <h2 id="imgui">immediate gui</h2>
 
 there aren't as many resources about it as I'd like there to be
@@ -38,11 +45,49 @@ there aren't as many resources about it as I'd like there to be
 
 - [microui, by rxi](https://github.com/rxi/microui): can't mention IMGUIs without mentioning this one. a tiny IMGUI system written in C with zero allocations that can render on anything that is able to draw rectangles and text.
 
-<h2 id="gamedev">game development</h2>
+<h2 id="music">some tunez</h2>
 
-- [Coding Math](https://www.youtube.com/@codingmath): a series of videos on various math topics related to and useful for game development, ranging from physics, to tweening, to a bit of UI. says "ongoing", but the last video released 7 years ago.
+this is, straight up, just links to music I like to listen to, ordered alphabetically, with links 
+to the artist and the album the song is from, if applicable.
 
-- [Game Physics Cookbook](https://gamephysicscookbook.com/): a guide on the algebra and math behind physics engines. I don't like it a lot because it's written like if it was a highschool class, but it's nice regardless.
+> note: the categories they are in don't imply they're only reachable there. it's just that that's where I'd most likely listen to the tune/album/artist if I didn't have the songs previously downloaded, or just where was the first place I found the song at.
+
+### SoundCloud
+
+- [TOKYOPILL](https://soundcloud.com/tokyopill)
+  - [Ethereal](https://soundcloud.com/tokyopill/ethereal) - previously Metadata. I like that name. an [unofficial mv](https://www.youtube.com/watch?v=3XFXPIMdj2Y) in YouTube.
+- [Keestak](https://soundcloud.com/keestak)
+  - [Windowkill OST](https://soundcloud.com/keestak/sets/windowkill-ost)
+    - [Windowchill](https://soundcloud.com/keestak/windowchill)
+    - [Windowkiller](https://soundcloud.com/keestak/windowkiller)
+- [Frums](https://soundcloud.com/frums/)
+  - [sing sing red indigo](https://soundcloud.com/frums/sing-sing-red-indigo)
+  - [Aegleseeker](https://soundcloud.com/frums/aegleseeker) - collab with [Silentroom](https://soundcloud.com/silentrm-net), credited to "Silentroom vs. Frums"
+  - [of Ambrosia](https://soundcloud.com/frums/of-ambrosia)
+  - [Q.E.](https://soundcloud.com/frums/q-dot-e-dot)
+  - [μ](https://soundcloud.com/frums/mju)
+  - [HALL](https://soundcloud.com/frums/hall)
+- [Deffy](https://soundcloud.com/deffynite) - f.k.a. Deathro
+  - [Attemption](https://soundcloud.com/deffynite/attemption)
+- [commandycan](https://soundcloud.com/commandycan)
+  - [Song of Psychosis](https://soundcloud.com/commandycan/song-of-psychosis)
+- [Fearofdark](https://soundcloud.com/fod-steve)
+  - [Exit Plan](https://soundcloud.com/fod-steve/sets/exit-plan)
+    - [Staying Afloat (ft. Danimal Cannon)](https://soundcloud.com/fod-steve/staying-afloat-feat-danimal)
+  - [The Coffee Zone](https://soundcloud.com/fod-steve/sets/the-coffee-zone)
+    - [Dopefish Lives](https://soundcloud.com/fod-steve/dopefish-lives-mmc5)
+  - [Windflower](https://soundcloud.com/fod-steve/windflower)
+  - actually, just open their page and click a random song, I will probably like it ;\)
+
+### YouTube
+
+- [Creo](https://www.youtube.com/@CreoMusic)
+  - [Nautilus](https://www.youtube.com/watch?v=6xEKE8jXyBs)
+  - [Aura](https://www.youtube.com/watch?v=LXTrXaYMgYs)
+  - [Never Make It](https://www.youtube.com/watch?v=11Z5_cej2dk)
+- [Coyote Theory](https://www.youtube.com/@CoyoteTheory)
+  - [Color](https://www.youtube.com/playlist?list=OLAK5uy_nCk9_GEwqQfYiN-Wn4ATPSKhBseJjwRCU)
+    - [This Side of Paradise](https://www.youtube.com/watch?v=FHT3xNYZU8o) - withr an official [slowed version](https://www.youtube.com/watch?v=0ueoezHCGy0)
 
 <h2 id="lowlevel">systems programming stuff</h2>
 
@@ -108,3 +153,6 @@ all dates are in dd/mm/yy format
   - remove redundancy on text above category links
   - extend jonesforth description
   - missed a single m in "programming language development"
+  - reorder cats once again
+  - add category: "some tunez"
+  - added so much music I'm not even going to bother listing it up
