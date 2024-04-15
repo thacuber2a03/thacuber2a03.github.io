@@ -107,6 +107,8 @@ to the artist and the album the song is from, if applicable.
 
 - [Let's Build a Compiler, by Jack W. Crenshaw](https://compilers.iecc.com/crenshaw/): a fifteen-part series written from 1988 to 1995 about writing a compiler from a custom-made language to Motorola 68k assembly language, in Pascal.
 
+- [Make a Lisp](https://github.com/kanaka/mal): a language-agnostic tutorial for making a Lisp-like with tail-call optimization, macros, file I/O and exception handling.
+
 <h2 id="tinybins">small programs</h2>
 
 - [kilo, by antirez](https://github.com/antirez/kilo): a text editor with syntax highlighting and incremental search, implemented in 1000 lines of C code (as counted by `cloc`).
@@ -162,3 +164,5 @@ all dates are in dd/mm/yy format
   - added so much music I'm not even going to bother listing it up
   - added "Choose a License", "Blit"
   
+- 15/04/24
+  - added "Make a Lisp"
