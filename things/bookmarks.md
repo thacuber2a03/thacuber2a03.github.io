@@ -117,6 +117,8 @@ to the artist and the album the song is from, if applicable.
 
 - [tixy.land](https://tixy.land): an artcoding tool to make small demo-ish graphics in a 16x16 dot matrix with 2 colors, with just 4 variables in a JavaScript function, and max 32 characters (soft limit). made by Martin Kleppe ([https://www.twitter.com/@aemkei](https://www.twitter.com/@aemkei))
 
+- [nandgame](https://nandgame.com): a webgame about building a 16-bit computer out of ICs made from nand gates. touches on assembly language and language compliation.
+
 <h2 id="infocomps">other resource compilations</h2>
 
 - [XXIIVV](https://wiki.xxiivv.com/site/), written by the designer and developer of the Uxn computing stack, Devine Lu Linvega ([@neauoire@merveilles.town](https://merveilles.town/@neauoire)).
@@ -166,3 +168,4 @@ all dates are in dd/mm/yy format
   
 - 15/04/24
   - added "Make a Lisp"
+  - added "nandgame"
