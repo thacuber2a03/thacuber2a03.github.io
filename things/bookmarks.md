@@ -31,6 +31,8 @@ and [here's the button to go back](/).
 
 - [rxi](https://github.com/rxi): makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. I am aware that this is a user, not a code repository.
 
+- [stb](https://github.com/nothings/stb): *the* header-only library repository. contains libraries that range from decoding/encoding images and OGG Vorbis audio files to voxel geometry rendering, all in the public domain.
+
 <h2 id="gamedev">game development</h2>
 
 - [Coding Math](https://www.youtube.com/@codingmath): a series of videos on various math topics related to and useful for game development, ranging from physics, to tweening, to a bit of UI. says "ongoing", but the last video released 7 years ago.
@@ -169,3 +171,4 @@ all dates are in dd/mm/yy format
 - 15/04/24
   - added "Make a Lisp"
   - added "nandgame"
+  - added "stb"
