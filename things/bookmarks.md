@@ -95,6 +95,8 @@ to the artist and the album the song is from, if applicable.
 
 - [Threaded code explained in C, by dramforever](https://dram.page/p/threaded-code). note, this link doesn't talk about multi-threaded programming, it talks about [threaded code](https://en.wikipedia.org/wiki/Threaded_code) which is a whole nother thing.
 
+- [6502 Instruction Set](http://www.6502.org/users/obelisk/6502/instructions.html): A detailed listing of all instructions and their actions/side effects in the MOS 6502 microprocessor.
+
 <h2 id="proglangs">programming languages</h2>
 
 - [Wren](https://wren.io/): an elegant, object oriented programming language implemented in "around 4000 semicolons".
@@ -172,3 +174,6 @@ all dates are in dd/mm/yy format
   - added "Make a Lisp"
   - added "nandgame"
   - added "stb"
+
+- 16/04/24
+  - added "6502 Instruction Set"
