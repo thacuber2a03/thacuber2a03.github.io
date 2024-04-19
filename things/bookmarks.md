@@ -56,6 +56,8 @@ to the artist and the album the song is from, if applicable.
 
 ### SoundCloud
 
+- [Desolo Zantas](https://soundcloud.com/desolozantas)
+  - [Lost In The Jungle Mist](https://soundcloud.com/desolozantas/lost-in-the-jungle-mist)
 - [TOKYOPILL](https://soundcloud.com/tokyopill)
   - [Ethereal](https://soundcloud.com/tokyopill/ethereal) - previously Metadata. I like that name. an [unofficial mv](https://www.youtube.com/watch?v=3XFXPIMdj2Y) in YouTube.
 - [Keestak](https://soundcloud.com/keestak)
@@ -177,3 +179,6 @@ all dates are in dd/mm/yy format
 
 - 16/04/24
   - added "6502 Instruction Set"
+
+- 19/04/24
+  - added "Lost In The Jungle Mist" by "Desolo Zantas"
