@@ -13,6 +13,7 @@ I describe just enough to explain each link, not going into too much detail unle
 they're not sorted in any order, but the category links are sorted alphabetically. here are they:
 
 - [code repositories](#repos)
+- [interesting videos](#vids)
 - [game development](#gamedev)
 - [immediate gui](#imgui)
 - [some tunez](#music)
@@ -32,6 +33,12 @@ and [here's the button to go back](/).
 - [rxi](https://github.com/rxi): makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. I am aware that this is a user, not a code repository.
 
 - [stb](https://github.com/nothings/stb): *the* header-only library repository. contains libraries that range from decoding/encoding images and OGG Vorbis audio files to voxel geometry rendering, all in the public domain.
+
+<h2 id="vids">interesting videos</h2>
+
+these are either video essays, experiments or playlists of videos
+
+- [one hit wonders (and their other songs)](https://youtu.be/bLjLnQl2GHg): a listing of some [one-hit wonders](https://en.wikipedia.org/wiki/One-hit_wonder), with a second song they recorded that's comparatively unknown.
 
 <h2 id="gamedev">game development</h2>
 
@@ -196,3 +203,5 @@ all dates are in dd/mm/yy format
   - added "OK" by Madeon
   - modified note for "You're Everything"
   - added "How to Make a Rhythm Game" by 7th Beat Games
+  - added new category, "interesting videos", bound to split into different categories
+  - added "one hit wonders (and their other songs)" by [@boogiehead](https://www.youtube.com/@boogieheadmusic)
