@@ -91,7 +91,11 @@ to the artist and the album the song is from, if applicable.
   - [Never Make It](https://www.youtube.com/watch?v=11Z5_cej2dk)
 - [Coyote Theory](https://www.youtube.com/@CoyoteTheory)
   - [Color](https://www.youtube.com/playlist?list=OLAK5uy_nCk9_GEwqQfYiN-Wn4ATPSKhBseJjwRCU)
-    - [This Side of Paradise](https://www.youtube.com/watch?v=FHT3xNYZU8o) - withr an official [slowed version](https://www.youtube.com/watch?v=0ueoezHCGy0)
+    - [This Side of Paradise](https://www.youtube.com/watch?v=FHT3xNYZU8o) - with an official [slowed version](https://www.youtube.com/watch?v=0ueoezHCGy0)
+- [Georg Vogel](https://youtube.com/@vogelgeorg)
+  - [You're Everything](https://youtube.com/watch?v=upbwQPeGm0Q) - it's a microtonal composition, holy shit!
+- [Madeon](https://youtube.com/@itsmadeon)
+  - [Pop Culture](https://youtube.com/watch?v=lTx3G6h2xyA) - [music video](https://youtube.com/watch?v=B496Qv0CuOQ), unsure whether it's official
 
 <h2 id="lowlevel">systems programming stuff</h2>
 
@@ -182,3 +186,7 @@ all dates are in dd/mm/yy format
 
 - 19/04/24
   - added "Lost In The Jungle Mist" by "Desolo Zantas"
+
+- 21/04/24
+  - added "Pop Culture" by Madeon and "You're Everything" by Georg Vogel
+  - fixed a single spelling mistake in "This Side of Paradise" by Coyote Theory
