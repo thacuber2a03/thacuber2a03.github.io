@@ -1,5 +1,5 @@
 ---
-title: "tc's bookmarks"
+title: tc\'s bookmarks
 permalink: /bookmarks
 layout: default
 ---
@@ -144,6 +144,8 @@ to the artist and the album the song is from, if applicable.
 
 - [Blit](https://quiltro.org/blit.html): a stack-based virtual machine for making "bit art". made by Lobo Torres ([quiltro.org](https://quiltro.org))
 
+- [How to Make a Rhythm Game](https://fizzd.notion.site/How-To-Make-A-Rhythm-Game-43d88e177da746e683afee494fdca3dc), by [7th Beat Games](https://7thbe.at): amazing set of resources to make a rhythm game that isn't just a Stepmania clone, but rather something more general. done in Unity, but it's language agnostic.
+
 ### changelog
 
 all dates are in dd/mm/yy format
@@ -193,3 +195,4 @@ all dates are in dd/mm/yy format
   - fixed a single spelling mistake in "This Side of Paradise" by Coyote Theory
   - added "OK" by Madeon
   - modified note for "You're Everything"
+  - added "How to Make a Rhythm Game" by 7th Beat Games
