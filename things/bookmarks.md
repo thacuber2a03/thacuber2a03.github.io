@@ -38,7 +38,7 @@ and [here's the button to go back](/).
 
 these are either video essays, experiments or playlists of videos
 
-- [one hit wonders (and their other songs)](https://youtu.be/bLjLnQl2GHg): a listing of some [one-hit wonders](https://en.wikipedia.org/wiki/One-hit_wonder), with a second song they recorded that's comparatively unknown.
+- [one hit wonders (and their other songs)](https://youtu.be/bLjLnQl2GHg): a listing of some [one-hit wonders](https://en.wikipedia.org/wiki/One-hit_wonder), normally in the US, with a second song they recorded that's popular in other countries.
 
 <h2 id="gamedev">game development</h2>
 
@@ -205,3 +205,6 @@ all dates are in dd/mm/yy format
   - added "How to Make a Rhythm Game" by 7th Beat Games
   - added new category, "interesting videos", bound to split into different categories
   - added "one hit wonders (and their other songs)" by [@boogiehead](https://www.youtube.com/@boogieheadmusic)
+
+- 22/04/24
+  - correct description for "one hit wonders (and their other songs)" (it actually describes one-hit wonders with songs that are popular in other countries as well)
