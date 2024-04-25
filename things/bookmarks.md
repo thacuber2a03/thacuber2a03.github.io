@@ -127,6 +127,10 @@ to the artist and the album the song is from, if applicable.
 
 - [Make a Lisp](https://github.com/kanaka/mal): a language-agnostic tutorial for making a Lisp-like with tail-call optimization, macros, file I/O and exception handling.
 
+- [Borrow checking, RC, GC, and the Eleven (!) Other Memory Safety Approaches](https://verdagon.dev/grimoire/grimoire): an amazing overview on various memory management strategies.
+
+- [Languages ∩ Architecture (Languages [intersect] Architecture)](https://verdagon.dev/home): a blog about low-level pldev topics.
+
 <h2 id="tinybins">small programs</h2>
 
 - [kilo, by antirez](https://github.com/antirez/kilo): a text editor with syntax highlighting and incremental search, implemented in 1000 lines of C code (as counted by `cloc`).
@@ -208,3 +212,6 @@ all dates are in dd/mm/yy format
 
 - 22/04/24
   - correct description for "one hit wonders (and their other songs)" (it actually describes one-hit wonders with songs that are popular in other countries as well)
+
+- 25/04/24
+  - added "Borrow checking, RC, GC, and the Eleven (!) Other Memory Safety Approaches" and "Languages ∩ Architecture (Languages [intersect] Architecture)", both by Evan Ovadia.
