@@ -104,6 +104,8 @@ to the artist and the album the song is from, if applicable.
 - [Madeon](https://youtube.com/@itsmadeon)
   - [Pop Culture](https://youtube.com/watch?v=lTx3G6h2xyA) - [music video](https://youtube.com/watch?v=B496Qv0CuOQ), unsure whether it's official
   - [OK](https://youtu.be/PgDMeLEqvYY)
+- [KORAII](https://www.youtube.com/@KORAII)
+  - [CONNECT](https://www.youtube.com/watch?v=sXrtd5d6w5E) - **_BASS_**
 
 <h2 id="lowlevel">systems programming stuff</h2>
 
@@ -215,3 +217,6 @@ all dates are in dd/mm/yy format
 
 - 25/04/24
   - added "Borrow checking, RC, GC, and the Eleven (!) Other Memory Safety Approaches" and "Languages ∩ Architecture (Languages [intersect] Architecture)", both by Evan Ovadia.
+
+- 27/04/24
+  - added "CONNECT" by "KORAII"
