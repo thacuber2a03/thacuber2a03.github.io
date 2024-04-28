@@ -57,7 +57,7 @@ there aren't as many resources about it as I'd like there to be
 <h2 id="music">some tunez</h2>
 
 this is, straight up, just links to music I like to listen to, ordered alphabetically, with links 
-to the artist and the album the song is from, if applicable.
+to the artist and the album the song is from, if applicable. if no official playlist exists, I might make one and put links to that instead.
 
 > note: the categories they are in don't imply they're only reachable there. it's just that that's where I'd most likely listen to the tune/album/artist if I didn't have the songs previously downloaded, or just where was the first place I found the song at.
 
@@ -72,7 +72,8 @@ to the artist and the album the song is from, if applicable.
     - [Windowchill](https://soundcloud.com/keestak/windowchill)
     - [Windowkiller](https://soundcloud.com/keestak/windowkiller)
 - [Frums](https://soundcloud.com/frums/)
-  - [sing sing red indigo](https://soundcloud.com/frums/sing-sing-red-indigo)
+  - [A Dance of Fire and Ice Neo Cosmos DLC OST](https://www.youtube.com/playlist?list=PLoV0Pc5bQC6LhGsbNaCGvHzuUP1TFeI1S) - link to YT
+    - [sing sing red indigo](https://soundcloud.com/frums/sing-sing-red-indigo)
   - [Aegleseeker](https://soundcloud.com/frums/aegleseeker) - collab with [Silentroom](https://soundcloud.com/silentrm-net), credited to "Silentroom vs. Frums"
   - [of Ambrosia](https://soundcloud.com/frums/of-ambrosia)
   - [Q.E.](https://soundcloud.com/frums/q-dot-e-dot)
@@ -103,9 +104,11 @@ to the artist and the album the song is from, if applicable.
   - [You're Everything](https://youtube.com/watch?v=upbwQPeGm0Q) - it's microtonal jazz, holy shit!
 - [Madeon](https://youtube.com/@itsmadeon)
   - [Pop Culture](https://youtube.com/watch?v=lTx3G6h2xyA) - [music video](https://youtube.com/watch?v=B496Qv0CuOQ), unsure whether it's official
-  - [OK](https://youtu.be/PgDMeLEqvYY)
+  - [Adventure](https://www.youtube.com/playlist?list=OLAK5uy_lEX2ZWJ-FoqZ3jcWIGciMFASauDCOAiEA)
+    - [OK](https://youtu.be/PgDMeLEqvYY)
 - [KORAII](https://www.youtube.com/@KORAII)
-  - [CONNECT](https://www.youtube.com/watch?v=sXrtd5d6w5E) - **_BASS_**
+  - [LOVE](https://www.youtube.com/watch?v=Y4-U3X4TyWI)
+    - [CONNECT](https://www.youtube.com/watch?v=sXrtd5d6w5E) - **_BASS_**
 
 <h2 id="lowlevel">systems programming stuff</h2>
 
@@ -220,3 +223,4 @@ all dates are in dd/mm/yy format
 
 - 27/04/24
   - added "CONNECT" by "KORAII"
+  - added album links for some songs
