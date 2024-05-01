@@ -28,7 +28,7 @@ and [here's the button to go back](/).
 
 <h2 id="repos">code repositories</h2>
 
-- [jonesforth, by Richard WM Jones](https://github.com/nornagon/jonesforth): a public domain FORTH system implemented in one x86 file and one FORTH file that also doubles as a tutorial.
+- [jonesforth, by Richard WM. Jones](https://github.com/nornagon/jonesforth): a public domain FORTH system implemented in one x86 file and one FORTH file that also doubles as a tutorial.
 
 - [rxi](https://github.com/rxi): makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. I am aware that this is a user, not a code repository.
 
@@ -124,6 +124,8 @@ to the artist and the album the song is from, if applicable. if no official play
 
 - [Uxn](https://100r.co/site/uxn.html), and consequently, [Varvara](https://wiki.xxiivv.com/site/varvara.html): a really small computing stack, designed to be really resilient, under the idea of permacomputing. Varvara embeds Uxn and extends it with a variable-sized screen, file and console I/O, controller, mouse and keyboard input, audio capabilities, etc.
 
+- [OCaml](https://ocaml.org/): OCaml is "an industrial-strength functional programming language with an emphasis on expressiveness and safety". that's buzzwords to me, I just like the language.
+
 <h2 id="pldev">programming language development</h2>
 
 - [Crafting Interpreters](https://craftinginterpreters.com): a book that teaches the reader how to make two interpreters, a treewalk one written in Java and a bytecode one in C for an ad-hoc programming language called Lox. made by the creator of the Wren programming language.
@@ -136,11 +138,17 @@ to the artist and the album the song is from, if applicable. if no official play
 
 - [Languages ∩ Architecture (Languages [intersect] Architecture)](https://verdagon.dev/home): a blog about low-level pldev topics.
 
+- [Writing and Compiling a Lisp](https://bernsteinbear.com/blog/lisp/): two really nice series about writing an interpreter for a full-featured Lisp in OCaml, and a compiler for it in C.
+
 <h2 id="tinybins">small programs</h2>
 
 - [kilo, by antirez](https://github.com/antirez/kilo): a text editor with syntax highlighting and incremental search, implemented in 1000 lines of C code (as counted by `cloc`).
 
 <h2 id="interwebz">other nice websites</h2>
+
+- [Just for Fun. No, Really](https://justforfunnoreally.dev/): coding, just for fun, is fun. a listing of various projects done for fun :\)
+
+- [Max Bernstein's website](https://bernsteinbear.com/)
 
 - [tixy.land](https://tixy.land): an artcoding tool to make small demo-ish graphics in a 16x16 dot matrix with 2 colors, with just 4 variables in a JavaScript function, and max 32 characters (soft limit). made by Martin Kleppe ([https://www.twitter.com/@aemkei](https://www.twitter.com/@aemkei))
 
@@ -224,3 +232,9 @@ all dates are in dd/mm/yy format
 - 27/04/24
   - added "CONNECT" by "KORAII"
   - added album links for some songs
+
+- 01/05/24
+  - added "Just for Fun. No, Really"
+  - added "Max Bernstein", "Writing and Compiling a Lisp"
+  - added "OCaml". yeah.
+  - missed a single dot in jonesforth's author
