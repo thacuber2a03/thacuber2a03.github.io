@@ -158,7 +158,7 @@ to the artist and the album the song is from, if applicable. if no official play
 
 <h2 id="infocomps">other resource compilations</h2>
 
-- [EuclideanSpace](https://www.euclideanspace.com/): a website that looks at the mathematics behind various sciences and how they can be written as code.
+- [EuclideanSpace](https://www.euclideanspace.com/): a website that looks at the mathematics behind various sciences and how they can be written as code. it looks like a 90's or 2000's page, which I'm not sure if it's intended or not, but is a plus from me regardless.
 
 - [XXIIVV](https://wiki.xxiivv.com/site/), written by the designer and developer of the Uxn computing stack, Devine Lu Linvega ([@neauoire@merveilles.town](https://merveilles.town/@neauoire)).
 
@@ -244,3 +244,4 @@ all dates are in dd/mm/yy format
 - 14/05/24
   - added "EuclideanSpace"
   - move "Blit" from [infocomps](#infocomps) to [tinybins](#tinybins) // should I make a new category?
+  - extend "EuclideanSpace" description
