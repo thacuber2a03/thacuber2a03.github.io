@@ -144,6 +144,8 @@ to the artist and the album the song is from, if applicable. if no official play
 
 - [kilo, by antirez](https://github.com/antirez/kilo): a text editor with syntax highlighting and incremental search, implemented in 1000 lines of C code (as counted by `cloc`).
 
+- [Blit](https://quiltro.org/blit.html): a stack-based virtual machine for making "bit art". made by Lobo Torres ([quiltro.org](https://quiltro.org))
+
 <h2 id="interwebz">other nice websites</h2>
 
 - [Just for Fun. No, Really](https://justforfunnoreally.dev/): coding, just for fun, is fun. a listing of various projects done for fun :\)
@@ -156,6 +158,8 @@ to the artist and the album the song is from, if applicable. if no official play
 
 <h2 id="infocomps">other resource compilations</h2>
 
+- [EuclideanSpace](https://www.euclideanspace.com/): a website that looks at the mathematics behind various sciences and how they can be written as code.
+
 - [XXIIVV](https://wiki.xxiivv.com/site/), written by the designer and developer of the Uxn computing stack, Devine Lu Linvega ([@neauoire@merveilles.town](https://merveilles.town/@neauoire)).
 
 - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x): contains many tutorials to recreate various technologies.
@@ -165,8 +169,6 @@ to the artist and the album the song is from, if applicable. if no official play
 - [rxi.github.io](https://rxi.github.io): by the aforementioned rxi, contains some explanations for how their tools work, as well as some other interesting algorithms.
 
 - [Choose a License](https://choosealicense.com/): a listing of licenses, their permissions, conditions and limitations, and a full template copy of each. it also explains what might happen if your repository doesn't have a license.
-
-- [Blit](https://quiltro.org/blit.html): a stack-based virtual machine for making "bit art". made by Lobo Torres ([quiltro.org](https://quiltro.org))
 
 - [How to Make a Rhythm Game](https://fizzd.notion.site/How-To-Make-A-Rhythm-Game-43d88e177da746e683afee494fdca3dc), by [7th Beat Games](https://7thbe.at): amazing set of resources to make a rhythm game that isn't just a Stepmania clone, but rather something more general. done in Unity, but it's language agnostic.
 
@@ -238,3 +240,7 @@ all dates are in dd/mm/yy format
   - added "Max Bernstein", "Writing and Compiling a Lisp"
   - added "OCaml". yeah.
   - missed a single dot in jonesforth's author
+
+- 14/05/24
+  - added "EuclideanSpace"
+  - move "Blit" from [infocomps](#infocomps) to [tinybins](#tinybins) // should I make a new category?
