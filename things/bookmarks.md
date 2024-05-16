@@ -57,6 +57,10 @@ there aren't as many resources about it as I'd like there to be
 
 - [Raytracing in One Weekend Series](https://raytracing.github.io/): A public domain (CC0) series of books that teaches the reader how to write a tiny raytracer with more than just circles.
 
+- [An Introduction to Shader Art Coding](https://www.youtube.com/watch?v=f4s1h2YETNY): what it says on the tin. does a small overview on the math needed to make shader art while making a small shader.
+
+- [Building Collision Simulations: An Introduction to Computer Graphics](https://www.youtube.com/watch?v=eED4bSkYCB8): I really like this video. this video builds a particle collision simulation, and goes over various topics to speed it up with a higher amount of particles.
+
 <h2 id="music">some tunez</h2>
 
 this is, straight up, just links to music I like to listen to, ordered alphabetically, with links 
@@ -150,6 +154,8 @@ to the artist and the album the song is from, if applicable. if no official play
 - [Languages ∩ Architecture (Languages [intersect] Architecture)](https://verdagon.dev/home): a blog about low-level pldev topics.
 
 - [Writing and Compiling a Lisp](https://bernsteinbear.com/blog/lisp/): two really nice series about writing an interpreter for a full-featured Lisp in OCaml, and a compiler for it in C.
+
+- [Writing a compiler in Ruby, bottom up](http://hokstad.com/compiler): writing a compiler for a Lisp-ish language that links to libc and starts from code generation instead of parsing.
 
 <h2 id="tinybins">small programs</h2>
 
@@ -262,3 +268,5 @@ all dates are in dd/mm/yy format
   - new category: "computer graphics"
   - added "Raytracing In One Weekend Series"
   - added "Flim", "IZ-US" and "Xtal" by Aphex Twin to [some tunez](#music)
+  - added "Writing a compiler in Ruby, bottom up"
+  - added "An Introduction to Shader Art Coding" and "Building Collision Simulations: An Introduction to Computer Graphics"
