@@ -61,6 +61,10 @@ there aren't as many resources about it as I'd like there to be
 
 - [Building Collision Simulations: An Introduction to Computer Graphics](https://www.youtube.com/watch?v=eED4bSkYCB8): I really like this video. this video builds a particle collision simulation, and goes over various topics to speed it up with a higher amount of particles.
 
+- [Performance optimizations for voxel graphics](https://www.youtube.com/watch?v=40JzyaOYJeY): this video goes over various space and performance optimizations you can apply to voxel engines.
+
+> you may notice the link name doesn't match with the video's title. that's because I used the title assigned to it by [Dearrow](https://dearrow.ajay.app/) because it's not as clickbait or as sensationalist as the video's title.
+
 <h2 id="music">some tunez</h2>
 
 this is, straight up, just links to music I like to listen to, ordered alphabetically, with links 
@@ -270,3 +274,4 @@ all dates are in dd/mm/yy format
   - added "Flim", "IZ-US" and "Xtal" by Aphex Twin to [some tunez](#music)
   - added "Writing a compiler in Ruby, bottom up"
   - added "An Introduction to Shader Art Coding" and "Building Collision Simulations: An Introduction to Computer Graphics"
+  - Added "Performance optimizations for voxel graphics"
