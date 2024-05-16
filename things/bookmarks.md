@@ -45,6 +45,8 @@ these are either video essays, experiments or playlists of videos
 
 - [Game Physics Cookbook](https://gamephysicscookbook.com/): a guide on the algebra and math behind physics engines. I don't like it a lot because it's written like if it was a highschool class, but it's nice regardless.
 
+- [Game Programming Patterns](https://gameprogrammingpatterns.com/): from the writer of Crafting Interpreters, this book goes over various programming patterns that are useful for game or game engine design.
+
 <h2 id="imgui">immediate gui</h2>
 
 there aren't as many resources about it as I'd like there to be
@@ -280,3 +282,4 @@ all dates are in dd/mm/yy format
   - mistakenly merged changelog for 16/05/24 with that of 15/05/14; fixed
   - change "voxel engines" to "voxel rendering engines" in desc for "Performance optimizations for voxel graphics"
   - missed indentation for contents of log 16/05/24
+  - added "Game Programming Patterns"
