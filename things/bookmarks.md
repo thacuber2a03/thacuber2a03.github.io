@@ -276,6 +276,7 @@ all dates are in dd/mm/yy format
   - added "An Introduction to Shader Art Coding" and "Building Collision Simulations: An Introduction to Computer Graphics"
 
 - 16/05/24
-- Added "Performance optimizations for voxel graphics"
-- mistakenly merged changelog for 16/05/24 with that of 15/05/14; fixed
-- change "voxel engines" to "voxel rendering engines" in desc for "Performance optimizations for voxel graphics"
+  - Added "Performance optimizations for voxel graphics"
+  - mistakenly merged changelog for 16/05/24 with that of 15/05/14; fixed
+  - change "voxel engines" to "voxel rendering engines" in desc for "Performance optimizations for voxel graphics"
+  - missed indentation for contents of log 16/05/24
