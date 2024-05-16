@@ -18,6 +18,13 @@ a:hover {
 	padding: 3px;
 }
 
+blockquote {
+	margin: 10px;
+	padding: 1px 1em 1px 1em;
+	background: #1e1e1e;
+	color: #cccccc;
+}
+
 @media only screen and (max-width: 620px) {
 	body {
 		padding: 10px;
