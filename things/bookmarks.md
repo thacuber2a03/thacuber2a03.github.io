@@ -13,16 +13,15 @@ I describe just enough to explain each link, not going into too much detail unle
 they're not sorted in any order, but the category links are sorted alphabetically. here are they:
 
 - [code repositories](#repos)
-- [interesting videos](#vids)
+- [computer graphics](#graphics)
 - [game development](#gamedev)
 - [immediate gui](#imgui)
-- [some tunez](#music)
+- [interesting videos](#vids)
 - [programming languages](#proglangs)
-- [programing language development](#pldev)
-- [systems programming stuff](#lowlevel)
+- [programming language development](#pldev)
 - [small programs](#tinybins)
-- [other nice websites](#interwebz)
-- [other resource compilations](#infocomps)
+- [some tunez](#music)
+- [systems programming stuff](#lowlevel)
 
 and [here's the button to go back](/).
 
@@ -54,12 +53,16 @@ there aren't as many resources about it as I'd like there to be
 
 - [microui, by rxi](https://github.com/rxi/microui): can't mention IMGUIs without mentioning this one. a tiny IMGUI system written in C with zero allocations that can render on anything that is able to draw rectangles and text.
 
+<h2 id="graphics">computer graphics</h2>
+
+- [Raytracing in One Weekend Series](https://raytracing.github.io/): A public domain (CC0) series of books that teaches the reader how to write a tiny raytracer with more than just circles.
+
 <h2 id="music">some tunez</h2>
 
 this is, straight up, just links to music I like to listen to, ordered alphabetically, with links 
 to the artist and the album the song is from, if applicable. if no official playlist exists, I might make one and put links to that instead.
 
-> note: the categories they are in don't imply they're only reachable there. it's just that that's where I'd most likely listen to the tune/album/artist if I didn't have the songs previously downloaded, or just where was the first place I found the song at.
+> note: the categories they are in don't imply they're only reachable there. it's just that that was the first place I found the song at.
 
 ### SoundCloud
 
@@ -109,6 +112,14 @@ to the artist and the album the song is from, if applicable. if no official play
 - [KORAII](https://www.youtube.com/@KORAII)
   - [LOVE](https://www.youtube.com/watch?v=Y4-U3X4TyWI)
     - [CONNECT](https://www.youtube.com/watch?v=sXrtd5d6w5E) - **_BASS_**
+- Hoffman & Daytripper - no idea if they have an active online appearance, nor where their accounts are
+  - [Professional Tracker](https://www.youtube.com/watch?v=9N9P52RqoEA) - oscview by [acrouzet](https://youtube.com/@acrouzet)
+- [Aphex Twin](https://youtube.com/@aphextwin9341) - afx
+  - [Come to Daddy](https://www.youtube.com/playlist?list=OLAK5uy_kZb_rG2RQfOcyfRPpp3ZTThnCRHDzHQO0)
+    - [Flim](https://www.youtube.com/watch?v=-yNHlKAzyVA)
+    - [IZ-US](https://www.youtube.com/watch?v=OkqOmWyb2Ac)
+  - [Selected Ambient Works 85-92](https://www.youtube.com/playlist?list=OLAK5uy_luEur9V6VWGm0oMYWJlNgRHlsvEOaAHww)
+    - [Xtal](https://www.youtube.com/watch?v=uXpKC8TIAxE)
 
 <h2 id="lowlevel">systems programming stuff</h2>
 
@@ -245,3 +256,9 @@ all dates are in dd/mm/yy format
   - added "EuclideanSpace"
   - move "Blit" from [infocomps](#infocomps) to [tinybins](#tinybins) // should I make a new category?
   - extend "EuclideanSpace" description
+
+- 15/05/24
+  - I am once again asking myself to alphabetically sort the catlinks
+  - new category: "computer graphics"
+  - added "Raytracing In One Weekend Series"
+  - added "Flim", "IZ-US" and "Xtal" by Aphex Twin to [some tunez](#music)
