@@ -315,6 +315,6 @@ all dates are in dd/mm/yy format
 - 16/06/24
   - added Uiua
   - a single uppercase letter that isn't "I" in 16/05/24
-  - added The Chainsmokers - Sick Boy (ONEDUO remix) by, well, ONEDUO, Whole by Chime and Adam Tell and a *lot* of music from Creo
-    turns out I do like Creo's discography, huh
+  - added The Chainsmokers - Sick Boy (ONEDUO remix) by, well, ONEDUO, Whole by Chime and Adam Tell and a *lot* of music from Creo - turns out I do like Creo's discography, huh
   - none of the links in "some tunes" are ordered alphabetically and at this point I'm not going to bother so I just removed the alphabetical part
+  - changed newline by dash in the change two changes above this one
