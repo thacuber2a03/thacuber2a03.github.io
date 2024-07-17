@@ -69,8 +69,7 @@ there aren't as many resources about it as I'd like there to be
 
 <h2 id="music">some tunez</h2>
 
-this is, straight up, just links to music I like to listen to, ordered alphabetically, with links 
-to the artist and the album the song is from, if applicable. if no official playlist exists, I might make one and put links to that instead.
+this is, straight up, just links to music I like to listen to, with links to the artist and the album the song is from, if applicable. if no official playlist exists, I might make one and put links to that instead.
 
 > note: the categories they are in don't imply they're only reachable there. it's just that that was the first place I found the song at.
 
@@ -174,8 +173,7 @@ to the artist and the album the song is from, if applicable. if no official play
 
 - [OCaml](https://ocaml.org/): OCaml is "an industrial-strength functional programming language with an emphasis on expressiveness and safety". I just like the language.
 
-- [Uiua](https://uiua.org): a point-free array-based programming language that reads from right to left and has capabilities for image, gif, audio and files processing,
-multithreading, sockets and FFI.
+- [Uiua](https://uiua.org): a point-free array-based programming language that reads from right to left and has capabilities for image, gif, audio and files processing, multithreading, sockets and FFI.
 
 <h2 id="pldev">programming language development</h2>
 
@@ -319,3 +317,4 @@ all dates are in dd/mm/yy format
   - a single uppercase letter that isn't "I" in 16/05/24
   - added The Chainsmokers - Sick Boy (ONEDUO remix) by, well, ONEDUO, Whole by Chime and Adam Tell and a *lot* of music from Creo
     turns out I do like Creo's discography, huh
+  - none of the links in "some tunes" are ordered alphabetically and at this point I'm not going to bother so I just removed the alphabetical part
