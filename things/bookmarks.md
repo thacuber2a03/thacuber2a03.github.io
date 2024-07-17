@@ -110,6 +110,21 @@ to the artist and the album the song is from, if applicable. if no official play
   - [Nautilus](https://www.youtube.com/watch?v=6xEKE8jXyBs)
   - [Aura](https://www.youtube.com/watch?v=LXTrXaYMgYs)
   - [Never Make It](https://www.youtube.com/watch?v=11Z5_cej2dk)
+  - [Exosphere](https://www.youtube.com/watch?v=MN8xH1J-Jyg)
+  - [Dark Tides](https://www.youtube.com/watch?v=XSjN9c5zilY)
+  - [Lightmare](https://www.youtube.com/watch?v=U0hibvFfRdg)
+  - [Shine](https://www.youtube.com/watch?v=KUrePkNVp0s)
+  - [Rock Thing](https://www.youtube.com/watch?v=-W52cDdeAuI)
+  - [Aurora](https://www.youtube.com/watch?v=M170iMt3C8A)
+  - [In Synergy](https://www.youtube.com/watch?v=syCQNuITDHw)
+  - [Dimension](https://www.youtube.com/watch?v=MrD05HVGVIQ)
+  - [Panacea](https://youtube.com/playlist?list=PL143F4F0390FB3DB6)
+    - [Make it Look Like an Accident](https://www.youtube.com/watch?v=qbi_FHlt7pU)
+    - it's the only song from Panacea that's posted on YouTube...
+  - [Octane EP](https://youtube.com/playlist?list=PLJrjuJXeaiCsYGrMc1lNg54Ap9lutLf-a)
+    - [Crazy](https://www.youtube.com/watch?v=IDaP8LeYsrk)
+    - [Ballistic Funk](https://www.youtube.com/watch?v=JWFnrx2NYSU)
+    - I'm this close to putting Octane too for completion, but I just don't enjoy it
 - [Coyote Theory](https://www.youtube.com/@CoyoteTheory)
   - [Color](https://www.youtube.com/playlist?list=OLAK5uy_nCk9_GEwqQfYiN-Wn4ATPSKhBseJjwRCU)
     - [This Side of Paradise](https://www.youtube.com/watch?v=FHT3xNYZU8o) - with an official [slowed version](https://www.youtube.com/watch?v=0ueoezHCGy0)
@@ -130,6 +145,18 @@ to the artist and the album the song is from, if applicable. if no official play
     - [IZ-US](https://www.youtube.com/watch?v=OkqOmWyb2Ac)
   - [Selected Ambient Works 85-92](https://www.youtube.com/playlist?list=OLAK5uy_luEur9V6VWGm0oMYWJlNgRHlsvEOaAHww)
     - [Xtal](https://www.youtube.com/watch?v=uXpKC8TIAxE)
+- [Skyper](https://youtube.com/@SkyperMusic)
+  - [Hero](https://www.youtube.com/watch?v=wHQusvIR0UI)
+  - [The Flight](https://www.youtube.com/watch?v=x0F7xfeRKtY)
+- music published by [Proximity](https://www.youtube.com/@Proximity)
+  - [ONEDUO](https://soundcloud.com/oneduo)
+    - [The Chainsmokers - Sick Boy (ONEDUO remix)](https://www.youtube.com/watch?v=GnNi_LuMnN4)
+- music published by [No Copyright Sounds](https://youtube.com/@NoCopyrightSounds)
+  - [Chime](https://youtube.com/@ChimeTunes) and [Adam Tell](https://www.youtube.com/@adamshmadam)
+    - [Whole](https://www.youtube.com/watch?v=mDulNkJC1CE)
+    - [Rob Gasser remix](https://www.youtube.com/watch?v=AHBnM1Jin9A)
+- [Paper Skies](https://youtube.com/@PaperSkies) and [Exyl](https://www.youtube.com/@exyl_sounds)
+  - [HOW](https://www.youtube.com/watch?v=EEnzDZFy5oY) - goofiest name
 
 <h2 id="lowlevel">systems programming stuff</h2>
 
@@ -145,7 +172,10 @@ to the artist and the album the song is from, if applicable. if no official play
 
 - [Uxn](https://100r.co/site/uxn.html), and consequently, [Varvara](https://wiki.xxiivv.com/site/varvara.html): a really small computing stack, designed to be really resilient, under the idea of permacomputing. Varvara embeds Uxn and extends it with a variable-sized screen, file and console I/O, controller, mouse and keyboard input, audio capabilities, etc.
 
-- [OCaml](https://ocaml.org/): OCaml is "an industrial-strength functional programming language with an emphasis on expressiveness and safety". that's buzzwords to me, I just like the language.
+- [OCaml](https://ocaml.org/): OCaml is "an industrial-strength functional programming language with an emphasis on expressiveness and safety". I just like the language.
+
+- [Uiua](https://uiua.org): a point-free array-based programming language that reads from right to left and has capabilities for image, gif, audio and files processing,
+multithreading, sockets and FFI.
 
 <h2 id="pldev">programming language development</h2>
 
@@ -278,8 +308,14 @@ all dates are in dd/mm/yy format
   - added "An Introduction to Shader Art Coding" and "Building Collision Simulations: An Introduction to Computer Graphics"
 
 - 16/05/24
-  - Added "Performance optimizations for voxel graphics"
+  - added "Performance optimizations for voxel graphics"
   - mistakenly merged changelog for 16/05/24 with that of 15/05/14; fixed
   - change "voxel engines" to "voxel rendering engines" in desc for "Performance optimizations for voxel graphics"
   - missed indentation for contents of log 16/05/24
   - added "Game Programming Patterns"
+
+- 16/06/24
+  - added Uiua
+  - a single uppercase letter that isn't "I" in 16/05/24
+  - added The Chainsmokers - Sick Boy (ONEDUO remix) by, well, ONEDUO, Whole by Chime and Adam Tell and a *lot* of music from Creo
+    turns out I do like Creo's discography, huh
