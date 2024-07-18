@@ -156,6 +156,9 @@ this is, straight up, just links to music I like to listen to, with links to the
     - [Rob Gasser remix](https://www.youtube.com/watch?v=AHBnM1Jin9A)
 - [Paper Skies](https://youtube.com/@PaperSkies) and [Exyl](https://www.youtube.com/@exyl_sounds)
   - [HOW](https://www.youtube.com/watch?v=EEnzDZFy5oY) - goofiest name
+- [Cafuné](https://youtube.com/@wearecafune)
+  - [Running](https://youtube.com/playlist?list=PLyNeYLc-m3DcF_l-RtoT6Vb5j66-Cd2Rf)
+    - [Tek It](https://www.youtube.com/watch?v=7RWbq-lbBlk) - official music video
 
 <h2 id="lowlevel">systems programming stuff</h2>
 
@@ -318,3 +321,6 @@ all dates are in dd/mm/yy format
   - added The Chainsmokers - Sick Boy (ONEDUO remix) by, well, ONEDUO, Whole by Chime and Adam Tell and a *lot* of music from Creo - turns out I do like Creo's discography, huh
   - none of the links in "some tunes" are ordered alphabetically and at this point I'm not going to bother so I just removed the alphabetical part
   - changed newline by dash in the change two changes above this one
+
+- 17/06/24
+  - added Tek It by Cafuné
