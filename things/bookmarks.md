@@ -49,11 +49,15 @@ these are either video essays, experiments or playlists of videos
 
 <h2 id="imgui">immediate gui</h2>
 
-there aren't as many resources about it as I'd like there to be
+> ...there aren't as many resources about it as I'd like there to be
 
 - [Sol on Immediate Mode GUIs](https://solhsa.com/imgui): a tutorial on a simple IMGUI system in C that also has keyboard focus. written with SDL1 so you might want to translate most calls to SDL 2 or 3.
 
-- [microui, by rxi](https://github.com/rxi/microui): can't mention IMGUIs without mentioning this one. a tiny IMGUI system written in C with zero allocations that can render on anything that is able to draw rectangles and text.
+- [microui](https://github.com/rxi/microui): can't mention simple IMGUIs without mentioning this one. written by rxi, it is a tiny IMGUI system written in ANSI C with zero allocations, and it does not depend on a graphics API either, so it can render on anything that is able to draw rectangles and text.
+
+- [nuklear](https://github.com/Immediate-Mode-UI/Nuklear): originally written by [Micha Mettke](https://github.com/vurtun), now mantained by [the community](https://github.com/Immediate-Mode-UI), it is a public-domain, header-only GUI library written in ANSI C, that mantains little state and does not handle OS inputs or windows. it also contains radio buttons, combo boxes, and progress bars, as well as complex graphics functions and basic image handling.
+
+- [suit](https://github.com/vrld/suit): an IMGUI designed specifically for the [LÖVE](https://love2d.org) game framework. it contains a flexible styling system that allows for drawing just about anything, as well as a layouting system decoupled from the UI itself.
 
 <h2 id="graphics">computer graphics</h2>
 
@@ -324,3 +328,7 @@ all dates are in dd/mm/yy format
 
 - 17/06/24
   - added Tek It by Cafuné
+
+- 26/06/24
+  - removed rxi's name from the link to microui and changed the desc a bit
+  - added nuklear and suit
