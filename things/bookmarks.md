@@ -51,7 +51,9 @@ these are either video essays, experiments or playlists of videos
 
 > ...there aren't as many resources about it as I'd like there to be
 
-- [Sol on Immediate Mode GUIs](https://solhsa.com/imgui): a tutorial on a simple IMGUI system in C that also has keyboard focus. written with SDL1 so you might want to translate most calls to SDL 2 or 3.
+- [Sol on Immediate Mode GUIs](http://iki.fi/sol/imgui/): a tutorial on a simple IMGUI system in C that also has keyboard focus. written with SDL1 so you might want to translate most calls to SDL 2 or 3.
+
+- [Immediate-Mode Graphical User Interfaces](https://youtu.be/Z1qyvQsjK5Y): *the* video about IMGUIs. recorded by Casey Muratori in 2005, this state-of-the-art 360p video (haha) is an essay explaining the idea of IMGUIs and why they rock. however, it also mentions some important cons to keep in mind, which I respect.
 
 - [microui](https://github.com/rxi/microui): can't mention simple IMGUIs without mentioning this one. written by rxi, it is a tiny IMGUI system written in ANSI C with zero allocations, and it does not depend on a graphics API either, so it can render on anything that is able to draw rectangles and text.
 
@@ -120,6 +122,8 @@ this is, straight up, just links to music I like to listen to, with links to the
   - [Rock Thing](https://www.youtube.com/watch?v=-W52cDdeAuI)
   - [Aurora](https://www.youtube.com/watch?v=M170iMt3C8A)
   - [In Synergy](https://www.youtube.com/watch?v=syCQNuITDHw)
+  - [Deep Dive](https://www.youtube.com/watch?v=a4wlxegc-mA) - :bubbles:
+  - [Without You](https://www.youtube.com/watch?v=57AfgdNkvI8) - :sunset:
   - [Dimension](https://www.youtube.com/watch?v=MrD05HVGVIQ)
   - [Panacea](https://youtube.com/playlist?list=PL143F4F0390FB3DB6)
     - [Make it Look Like an Accident](https://www.youtube.com/watch?v=qbi_FHlt7pU)
@@ -128,6 +132,15 @@ this is, straight up, just links to music I like to listen to, with links to the
     - [Crazy](https://www.youtube.com/watch?v=IDaP8LeYsrk)
     - [Ballistic Funk](https://www.youtube.com/watch?v=JWFnrx2NYSU)
     - I'm this close to putting Octane too for completion, but I just don't enjoy it
+- [JVKE](https://www.youtube.com/@JVKE)
+  - [this is what ____ feels like (vol. 1-4)](https://www.youtube.com/playlist?list=OLAK5uy_liYl68JFE-tg2ZKLYHcCUdA0bTknb1_dU) - epic album name
+    - [golden hour](https://www.youtube.com/watch?v=PEM0Vs8jf1w)
+  - [this is what space feels like](https://www.youtube.com/watch?v=g-FXA0nSn8U)
+  - [this is what autumn feels like](https://www.youtube.com/watch?v=QegcGsE9tYE)
+  - [her](https://www.youtube.com/watch?v=f5-IY_Ja1RM)
+  - honestly, I'm never sure which songs belong to TIW_FL and which don't, they all have basically the same cover<br>
+  I had to rewrite this section like 1 or 2 times<br>
+  ...I think the album is already finished...
 - [Coyote Theory](https://www.youtube.com/@CoyoteTheory)
   - [Color](https://www.youtube.com/playlist?list=OLAK5uy_nCk9_GEwqQfYiN-Wn4ATPSKhBseJjwRCU)
     - [This Side of Paradise](https://www.youtube.com/watch?v=FHT3xNYZU8o) - with an official [slowed version](https://www.youtube.com/watch?v=0ueoezHCGy0)
@@ -332,3 +345,10 @@ all dates are in dd/mm/yy format
 - 26/06/24
   - removed rxi's name from the link to microui and changed the desc a bit
   - added nuklear and suit
+
+- 17/09/24
+  it has been a while
+  - change link to Sol on Immediate Mode GUIs to the permanent one
+  - added the video essay on IMGUIs by Casey Muratori
+  - added "her", "this is what autumn feels like", "this is what space feels like" and "golden hour" by JVKE
+  - added "Deep Dive" and "Without You" by Creo
