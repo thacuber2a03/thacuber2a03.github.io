@@ -30,11 +30,12 @@ you probably know me from:
 I also have other stuff here:
 
 - [fantroll](/fantroll)
-<!-- - [fireworks](/fireworks), a small unofficial WASM-4 demo written in Rust. -->
-- [a JSON lexer written in Rust](/jsonlexer).
+<!-- - [fireworks](/fireworks), a small WASM-4 demo written in Rust. -->
+- [a JSON lexer written in Rust.](/jsonlexer)
 - [hey :)](/hey)
 - [some facts about CS projects I find rather nice](/csfunfacts)
 - [an old html file I made while trying to learn HTML](/page1)
-- some [bookmarks](/bookmarks).
+- some [bookmarks](/bookmarks)
+- [math for user interfaces](/uimath)
 
 this page is, of course, [open source.](https://github.com/thacuber2a03/thacuber2a03.github.io)
