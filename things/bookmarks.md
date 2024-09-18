@@ -45,6 +45,11 @@ these are either video essays, experiments or playlists of videos
 
 - [Game Physics Cookbook](https://gamephysicscookbook.com/): a guide on the algebra and math behind physics engines. I don't like it a lot because it's written like if it was a highschool class, but it's nice regardless.
 
+- [2D Parametric Collision Detection](https://fotino.me/2d-parametric-collision-detection/)
+and [2D Rigid Body Collision Response](https://fotino.me/2d-rigid-body-collision-response/):
+  two articles that go on detail about a collision detection algorithm based on parametric equations,
+  and an impulse-based constraint solver, respectively.
+
 - [Game Programming Patterns](https://gameprogrammingpatterns.com/): from the writer of Crafting Interpreters, this book goes over various programming patterns that are useful for game or game engine design.
 
 <h2 id="imgui">immediate gui</h2>
@@ -347,8 +352,14 @@ all dates are in dd/mm/yy format
   - added nuklear and suit
 
 - 17/09/24
+
   it has been a while
+
   - change link to Sol on Immediate Mode GUIs to the permanent one
   - added the video essay on IMGUIs by Casey Muratori
   - added "her", "this is what autumn feels like", "this is what space feels like" and "golden hour" by JVKE
   - added "Deep Dive" and "Without You" by Creo
+
+- 18/09/24
+  - fixed line break in changelog list above (markdown can be annoying sometimes)
+  - added 2D Parametric Collision Detection and 2D Rigid Body Collision Response by Robert Fotino
