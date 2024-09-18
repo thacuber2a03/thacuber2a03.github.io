@@ -97,7 +97,7 @@ for (i = 0; i < numChildren; i++)
 >
 > also, [I really like IMGUIs](/things/bookmarks.md#imgui).
 
-this entire section has mostly talked about the placement of widgets in the X axis, but the nice thing about this is that all the math is exactly the same for both axes. so, yeah, you can go "Find and Replace" your way through these snippets and switch all `x`s to `y`s, or even better (worse), all `x`s to `z`s! :)
+this entire section has mostly talked about the placement of widgets in the X axis, but the nice thing about this is that all the math is exactly the same for both axes. so, yeah, you can go "Find and Replace" your way through these snippets and switch all `x`s to `y`s, or even better (or worse), all `x`s to `z`s! :)
 
 ## TODO
 
@@ -109,6 +109,9 @@ this entire section has mostly talked about the placement of widgets in the X ax
 ```
 date format: dd/mm/yyyy
 ```
+
+- 18/09/2024:
+    - change "(worse)" to "(or worse)" (didn't mean to imply anything bad)
 
 - 17/09/2024:
     - initial release
