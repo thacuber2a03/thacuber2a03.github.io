@@ -48,11 +48,11 @@ boxes can also be placed relative to their parent, such as next to the left bord
 
 - **left border:** this case kind of solves itself. if your environment uses x and y positions to refer to one of the shape's corners, you already have this working; just drawing the box in-place will suffice.
 
-    > ![(pixel art image about locating a box in the left border of its parent)](/assets/uimath/leftborder.png)
+    ![(pixel art image about locating a box in the left border of its parent)](/assets/uimath/leftborder.png)
 
 - **right border:** to calculate this, subtract the size of the box from the size of the parent. this amount is how many pixels to offset the box.
 
-    > ![(pixel art image about locating a box in the right border of its parent)](/assets/uimath/rightborder.png)
+    ![(pixel art image about locating a box in the right border of its parent)](/assets/uimath/rightborder.png)
 
     ```c
     int rightX = boxX + (parentW - boxW);
@@ -60,7 +60,7 @@ boxes can also be placed relative to their parent, such as next to the left bord
 
 - **total center:** this case is slightly more complicated but not by much. it’s similar to the right border case, but you subtract half of the box's size from half of the parent's size:
 
-    > ![(pixel art image about locating a box in the center of its parent)](/assets/uimath/centerbox.png)
+    ![(pixel art image about locating a box in the center of its parent)](/assets/uimath/centerbox.png)
 
     ```c
     int centerX = boxX + (parentW / 2 - boxW / 2);
@@ -109,6 +109,13 @@ this entire section has mostly talked about the placement of widgets in the X ax
 ```
 date format: dd/mm/yyyy
 ```
+
+- 29/09/2024:
+    - remove last three images from quotes (leftborder, rightborder and centerbox)
+    - forgot to add last entry to changelog (meta issue)
+
+- 28/09/2024:
+    - resize centerbox image by 400% (somehow I missed it :P)
 
 - 18/09/2024:
     - change "(worse)" to "(or worse)" (didn't mean to imply anything bad)
