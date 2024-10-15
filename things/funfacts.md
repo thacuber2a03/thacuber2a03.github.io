@@ -10,7 +10,7 @@ this is just a listing of some facts I find fun about some of my favourite CS pr
 
 all of what's listed here should be taken with a grain of salt, as most things written here were based off of my own research, but you can always tell me at [this page's Github repository's issues](https://github.com/thacuber2a03/thacuber2a03.github.io), and I will gladly fix any errors.
 
-[click here to go back home](/).
+[click here to go back home](https://thacuber2a03.github.io/).
 
 currently there's only one fact:
 

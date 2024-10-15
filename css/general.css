@@ -1,5 +1,3 @@
-@include "native.css";
-
 body {
 	background-color: #cdb989;
 	padding: 80px;
@@ -25,8 +23,19 @@ blockquote {
 	color: #cccccc;
 }
 
+#me {
+	margin: 8px;
+	vertical-align: middle;
+	max-width: 5vw;
+}
+
 @media only screen and (max-width: 620px) {
 	body {
 		padding: 10px;
+	}
+
+	#me {
+		/* vertical-align: text-middle; */
+		max-width: 10vw;
 	}
 }

@@ -1,3 +1,5 @@
+<!-- I need to find some way to render this site without it being preproessed by Jekyll... -->
+
 ---
 title: fireworks
 permalink: /fireworks

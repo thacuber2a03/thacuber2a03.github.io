@@ -23,7 +23,7 @@ they're not sorted in any order, but the category links are sorted alphabeticall
 - [some tunez](#music)
 - [systems programming stuff](#lowlevel)
 
-and [here's the button to go back](/).
+and [here's the button to go back](https://thacuber2a03.github.io/).
 
 > **noteworthy update:** I'm trying out a new and consistent link format, where the title of each resource is its name, followed by 2 dashes (or a long dash- depends on how Jekyll wants to render any of this) and the author(s) of the project.
 > tell me what you think about it in [the issues page](https://github.com/thacuber2a03/thacuber2a03.github.io/issues) of this website's repository!

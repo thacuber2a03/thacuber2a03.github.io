@@ -1,6 +1,6 @@
 ---
 title: fantroll
-permalink: /fantroll/
+permalink: /fantroll
 layout: default
 ---
 
