@@ -25,58 +25,83 @@ they're not sorted in any order, but the category links are sorted alphabeticall
 
 and [here's the button to go back](/).
 
+> **noteworthy update:** I'm trying out a new and consistent link format, where the title of each resource is its name, followed by 2 dashes (or a long dash- depends on how Jekyll wants to render any of this) and the author(s) of the project.
+> tell me what you think about it in [the issues page](https://github.com/thacuber2a03/thacuber2a03.github.io/issues) of this website's repository!
+> I might've also possibly messed up something while changing the links, so if you find any errors on the links please tell me over there too.
+
 <h2 id="repos">code repositories</h2>
 
-- [jonesforth, by Richard WM. Jones](https://github.com/nornagon/jonesforth): a public domain FORTH system implemented in one x86 file and one FORTH file that also doubles as a tutorial.
+- **[jonesforth](https://github.com/nornagon/jonesforth) -- [Richard WM. Jones](https://rwmj.wordpress.com)** \
+  a public domain FORTH system implemented in one x86 file and one FORTH file that also doubles as a tutorial.
 
-- [rxi](https://github.com/rxi): makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. I am aware that this is a user, not a code repository.
+- **[rxi](https://github.com/rxi)** \
+  makes really useful and varied libraries, mostly in C and Lua. developer of lite, json.lua, microui, fe and many, many others. \
+  (I am aware that this is a user, not a code repository.)
 
-- [stb](https://github.com/nothings/stb): *the* header-only library repository. contains libraries that range from decoding/encoding images and OGG Vorbis audio files to voxel geometry rendering, all in the public domain.
+- **[stb](https://github.com/nothings/stb) -- [nothings](https://github.com/nothings)** \
+  *the* header-only library repository. contains libraries that range from decoding/encoding images and OGG Vorbis audio files to voxel geometry rendering, all in the public domain.
 
 <h2 id="vids">interesting videos</h2>
 
 these are either video essays, experiments or playlists of videos
 
-- [one hit wonders (and their other songs)](https://youtu.be/bLjLnQl2GHg): a listing of some [one-hit wonders](https://en.wikipedia.org/wiki/One-hit_wonder), normally in the US, with a second song they recorded that's popular in other countries.
+- **[one hit wonders (and their other songs)](https://youtu.be/bLjLnQl2GHg) -- [boogiehead](https://www.youtube.com/@boogieheadmusic)** \
+  a listing of some [one-hit wonders](https://en.wikipedia.org/wiki/One-hit_wonder), normally in the US, with a second song they recorded that's popular in other countries.
 
 <h2 id="gamedev">game development</h2>
 
-- [Coding Math](https://www.youtube.com/@codingmath): a series of videos on various math topics related to and useful for game development, ranging from physics, to tweening, to a bit of UI. says "ongoing", but the last video released 7 years ago.
+- **[Coding Math](https://www.youtube.com/@codingmath)** \
+  a series of videos on various math topics related to and useful for game development, ranging from physics, to tweening, to a bit of UI. says "ongoing", but the last video released 7 years ago.
 
-- [Game Physics Cookbook](https://gamephysicscookbook.com/): a guide on the algebra and math behind physics engines. I don't like it a lot because it's written like if it was a highschool class, but it's nice regardless.
+- **[Game Physics Cookbook](https://gamephysicscookbook.com/) -- [Gabor Szauer](https://gaborszauer.com)** \
+  a guide on the algebra and math behind physics engines. I don't like it a lot because it's written like if it was a highschool class, but it's nice regardless.
 
-- [2D Parametric Collision Detection](https://fotino.me/2d-parametric-collision-detection/)
-and [2D Rigid Body Collision Response](https://fotino.me/2d-rigid-body-collision-response/):
+- **[2D Parametric Collision Detection](https://fotino.me/2d-parametric-collision-detection/) and [2D Rigid Body Collision Response](https://fotino.me/2d-rigid-body-collision-response/) -- [Robert Fotino](https://fotino.me)** \
   two articles that go on detail about a collision detection algorithm based on parametric equations,
   and an impulse-based constraint solver, respectively.
 
-- [Game Programming Patterns](https://gameprogrammingpatterns.com/): from the writer of Crafting Interpreters, this book goes over various programming patterns that are useful for game or game engine design.
+- **[Game Programming Patterns](https://gameprogrammingpatterns.com/) -- [Robert Nystrom](https://stuffwithstuff.com)** \
+  this book goes over various programming patterns that are useful for game or game engine design. \
+  from the writer of Crafting Interpreters (this book came before it)
 
 <h2 id="imgui">immediate gui</h2>
 
 > ...there aren't as many resources about it as I'd like there to be
 
-- [Sol on Immediate Mode GUIs](http://iki.fi/sol/imgui/): a tutorial on a simple IMGUI system in C that also has keyboard focus. written with SDL1 so you might want to translate most calls to SDL 2 or 3.
+- **[Sol on Immediate Mode GUIs](http://iki.fi/sol/imgui/) -- [Sol_HSA](https://solhsa.com/)** \
+  a tutorial on a simple IMGUI system in C that also has keyboard focus. it's written in SDL1, so you might want to translate most calls to SDL 2 or 3.
 
-- [Immediate-Mode Graphical User Interfaces](https://youtu.be/Z1qyvQsjK5Y): *the* video about IMGUIs. recorded by Casey Muratori in 2005, this state-of-the-art 360p video (haha) is an essay explaining the idea of IMGUIs and why they rock. however, it also mentions some important cons to keep in mind, which I respect.
+- **[Immediate-Mode Graphical User Interfaces](https://youtu.be/Z1qyvQsjK5Y) -- [Casey Muratori](https://mollyrocket.com)** \
+*the* video about IMGUIs. recorded in 2005, this state-of-the-art 360p video (haha) is an essay explaining the idea of IMGUIs and why they rock. however, it also mentions some important cons to keep in mind, which I respect.
 
-- [microui](https://github.com/rxi/microui): can't mention simple IMGUIs without mentioning this one. written by rxi, it is a tiny IMGUI system written in ANSI C with zero allocations, and it does not depend on a graphics API either, so it can render on anything that is able to draw rectangles and text.
+- **[microui](https://github.com/rxi/microui) -- [rxi](https://github.com/rxi)**\
+  can't mention simple IMGUIs without mentioning this one. it is a tiny IMGUI system written in ANSI C with zero allocations, and it does not depend on a graphics API either, so it can render on anything that is able to draw rectangles and text.
 
-- [nuklear](https://github.com/Immediate-Mode-UI/Nuklear): originally written by [Micha Mettke](https://github.com/vurtun), now mantained by [the community](https://github.com/Immediate-Mode-UI), it is a public-domain, header-only GUI library written in ANSI C, that mantains little state and does not handle OS inputs or windows. it also contains radio buttons, combo boxes, and progress bars, as well as complex graphics functions and basic image handling.
+- **[nuklear](https://github.com/Immediate-Mode-UI/Nuklear) -- [the Immediate-Mode-UI community](https://github.com/Immediate-Mode-UI)** \
+  originally written by [Micha Mettke](https://github.com/vurtun), it is a public-domain, header-only GUI library written in ANSI C, that mantains little state and does not handle OS inputs or windows. it also contains radio buttons, combo boxes, and progress bars, as well as complex graphics functions and basic image handling.
 
-- [suit](https://github.com/vrld/suit): an IMGUI designed specifically for the [LÖVE](https://love2d.org) game framework. it contains a flexible styling system that allows for drawing just about anything, as well as a layouting system decoupled from the UI itself.
+- **[suit](https://github.com/vrld/suit) -- [Matthias Richter](https://github.com/vrld)** \
+an IMGUI specifically designed for the [LÖVE](https://love2d.org) game framework. it contains a flexible styling system that allows for drawing just about anything, as well as a layouting system decoupled from the UI itself.
 
 <h2 id="graphics">computer graphics</h2>
 
-- [Raytracing in One Weekend Series](https://raytracing.github.io/): A public domain (CC0) series of books that teaches the reader how to write a tiny raytracer with more than just circles.
+- **[Raytracing in One Weekend](https://raytracing.github.io/) --
+    [Peter Shirley](https://github.com/petershirley),
+    [Trevor David Black](https://github.com/trevordblack),
+    [Steve Hollasch](https://github.com/hollasch)** \
+  a public domain (CC0) series of books that teaches the reader how to write a tiny raytracer with more than just circles.
 
-- [An Introduction to Shader Art Coding](https://www.youtube.com/watch?v=f4s1h2YETNY): what it says on the tin. does a small overview on the math needed to make shader art while making a small shader.
+- **[An Introduction to Shader Art Coding](https://www.youtube.com/watch?v=f4s1h2YETNY) -- [kishimisu](https://www.youtube.com/@kishimisu)** \
+  what it says on the tin. does a small overview on the math needed to make shader art while making a small shader.
 
-- [Building Collision Simulations: An Introduction to Computer Graphics](https://www.youtube.com/watch?v=eED4bSkYCB8): I really like this video. this video builds a particle collision simulation, and goes over various topics to speed it up with a higher amount of particles.
+- **[Building Collision Simulations: An Introduction to Computer Graphics](https://www.youtube.com/watch?v=eED4bSkYCB8) -- [Reducible](https://www.youtube.com/@Reducible)** \
+  I really like this video. this video builds a particle collision simulation, and goes over various topics to speed it up with a higher amount of particles.
 
-- [Performance optimizations for voxel graphics](https://www.youtube.com/watch?v=40JzyaOYJeY): this video goes over various space and performance optimizations you can apply to voxel rendering engines.
+- **[Performance optimizations for voxel graphics](https://www.youtube.com/watch?v=40JzyaOYJeY) -- [Vercidium](https://www.youtube.com/@Vercidium)** \
+  this video goes over various space and performance optimizations you can apply to voxel rendering engines.
 
-> you may notice the link name doesn't match with the video's title. that's because I used the title assigned to it by [Dearrow](https://dearrow.ajay.app/) because it's not as clickbait or as sensationalist as the video's title.
+> you may notice the link's name above doesn't match with the video's title. that's because I used the title assigned to it by [Dearrow](https://dearrow.ajay.app/) because it's not as clickbait or as sensationalist as the video's title.
+> I might do the same with some other YouTube links; if the title doesn't match, it's likely using Dearrow's version of it.
 
 <h2 id="music">some tunez</h2>
 
@@ -181,72 +206,109 @@ this is, straight up, just links to music I like to listen to, with links to the
 - [Cafuné](https://youtube.com/@wearecafune)
   - [Running](https://youtube.com/playlist?list=PLyNeYLc-m3DcF_l-RtoT6Vb5j66-Cd2Rf)
     - [Tek It](https://www.youtube.com/watch?v=7RWbq-lbBlk) - official music video
+- [Frou Frou](https://youtube.com/@frou-frou-frou)
+  - [A New Kind Of Love](https://www.youtube.com/watch?v=vWwIBemUwOI)
+- [Vierre Cloud](https://www.youtube.com/@vierrecloudvevo9141)
+  - [moment](https://www.youtube.com/watch?v=1QMG2QjsjdA) - nowhere in the lyrics
+    is the word "moment" where did that name come from
+    > "We're approximating 1+1 with this one 🗣️ 🔥 ‼️" - @pedrooou7699
 
 <h2 id="lowlevel">systems programming stuff</h2>
 
-- [Threaded code explained in C, by dramforever](https://dram.page/p/threaded-code). note, this link doesn't talk about multi-threaded programming, it talks about [threaded code](https://en.wikipedia.org/wiki/Threaded_code) which is a whole nother thing.
+- **[Threaded code explained in C](https://dram.page/p/threaded-code) -- [dramforever](https://dram.page)** \
+  note, this link doesn't talk about multi-threaded programming, it talks about [threaded code](https://en.wikipedia.org/wiki/Threaded_code) which is a whole nother thing.
 
-- [6502 Instruction Set](http://www.6502.org/users/obelisk/6502/instructions.html): A detailed listing of all instructions and their actions/side effects in the MOS 6502 microprocessor.
+- **[6502 Instruction Set](http://www.6502.org/users/obelisk/6502/instructions.html) -- [Andrew Jacobs (BitWise)](http://www.6502.org/users/obelisk/) (RIP)** \
+A detailed listing of all instructions and their actions/side effects in the MOS 6502 microprocessor.
 
 <h2 id="proglangs">programming languages</h2>
 
-- [Wren](https://wren.io/): an elegant, object oriented programming language implemented in "around 4000 semicolons".
+- **[Wren](https://wren.io/) -- [Robert Nystrom](https://stuffwithstuff.com), [ruby0x1](https://mastodon.gamedev.place/@ruby0x1) et al.** \
+  an elegant, object oriented programming language implemented in "around 4000 semicolons".
 
-- [funk](https://github.com/egordorichev/funk): a programming language that only has functions.
+- **[funk](https://github.com/egordorichev/funk) -- [Egor Dorichev](https://egordorichev.github.io/)** \
+  a programming language that only has functions.
 
-- [Uxn](https://100r.co/site/uxn.html), and consequently, [Varvara](https://wiki.xxiivv.com/site/varvara.html): a really small computing stack, designed to be really resilient, under the idea of permacomputing. Varvara embeds Uxn and extends it with a variable-sized screen, file and console I/O, controller, mouse and keyboard input, audio capabilities, etc.
+- **[Uxn](https://100r.co/site/uxn.html)/[Varvara](https://wiki.xxiivv.com/site/varvara.html) -- [Hundred Rabbits](https://100r.co)** \
+  a really small computing stack, designed to be really resilient, under the idea of permacomputing. Varvara embeds Uxn and extends it with a variable-sized screen, file and console I/O, controller, mouse and keyboard input, audio capabilities, etc.
 
-- [OCaml](https://ocaml.org/): OCaml is "an industrial-strength functional programming language with an emphasis on expressiveness and safety". I just like the language.
+- **[OCaml](https://ocaml.org/) -- Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez et al.** \
+  OCaml is "an industrial-strength functional programming language with an emphasis on expressiveness and safety". I just like the language.
 
-- [Uiua](https://uiua.org): a point-free array-based programming language that reads from right to left and has capabilities for image, gif, audio and files processing, multithreading, sockets and FFI.
+- **[Uiua](https://uiua.org) -- [Kai Schmidt](https://github.com/kaikalii)** \
+  a point-free array-based programming language that reads from right to left and has capabilities for image, gif, audio and files processing, multithreading, sockets and FFI.
+
+- **[Zig](https://ziglang.org) -- [the Zig Software Foundation](https://ziglang.org/zsf/)** \
+  an incredibly-explicit programming language with a hyper-comptime approach to metaprogramming. so explicit, you usually have to specify the allocator you want to use in some of its type functions. I'm not sure *why* I like it, but I do XD
 
 <h2 id="pldev">programming language development</h2>
 
-- [Crafting Interpreters](https://craftinginterpreters.com): a book that teaches the reader how to make two interpreters, a treewalk one written in Java and a bytecode one in C for an ad-hoc programming language called Lox. made by the creator of the Wren programming language.
+- **[Crafting Interpreters](https://craftinginterpreters.com) -- [Robert Nystrom](https://stuffwithstuff.com)** \
+  a book that teaches the reader how to make two interpreters, a treewalk one written in Java and a bytecode one in C for an ad-hoc programming language called Lox. made by the creator of the Wren programming language and the Game Programming Patterns book.
 
-- [Let's Build a Compiler, by Jack W. Crenshaw](https://compilers.iecc.com/crenshaw/): a fifteen-part series written from 1988 to 1995 about writing a compiler from a custom-made language to Motorola 68k assembly language, in Pascal.
+- **[Let's Build a Compiler](https://compilers.iecc.com/crenshaw/) -- Jack W. Crenshaw** \
+  a fifteen-part series written from 1988 to 1995 about writing a compiler from a custom-made language to Motorola 68k assembly language, in Pascal.
 
-- [Make a Lisp](https://github.com/kanaka/mal): a language-agnostic tutorial for making a Lisp-like with tail-call optimization, macros, file I/O and exception handling.
+- **[Make a Lisp](https://github.com/kanaka/mal) -- [Joel Martin](https://github.com/kanaka)** \
+  a language-agnostic tutorial for making a Lisp-like with tail-call optimization, macros, file I/O and exception handling.
 
-- [Borrow checking, RC, GC, and the Eleven (!) Other Memory Safety Approaches](https://verdagon.dev/grimoire/grimoire): an amazing overview on various memory management strategies.
+- **[Borrow checking, RC, GC, and the Eleven (!) Other Memory Safety Approaches](https://verdagon.dev/grimoire/grimoire) -- [Evan Ovadia](https://verdagon.dev/home)** \
+  an amazing overview on various different memory management strategies, some of them I didn't know existed lol
 
-- [Languages ∩ Architecture (Languages [intersect] Architecture)](https://verdagon.dev/home): a blog about low-level pldev topics.
+- **[Languages ∩ Architecture (Languages [intersect] Architecture)](https://verdagon.dev/home) -- Evan Ovadia** \
+  a blog about low-level pldev topics.
+  > **note**: this link is the same as the author link in the resource just above.
 
-- [Writing and Compiling a Lisp](https://bernsteinbear.com/blog/lisp/): two really nice series about writing an interpreter for a full-featured Lisp in OCaml, and a compiler for it in C.
+- **[Writing and Compiling a Lisp](https://bernsteinbear.com/blog/lisp/) -- [Max Bernstein](https://bernsteinbear.com)** \
+two really nice series about writing an interpreter for a full-featured Lisp in OCaml, and a compiler for it in C.
 
-- [Writing a compiler in Ruby, bottom up](http://hokstad.com/compiler): writing a compiler for a Lisp-ish language that links to libc and starts from code generation instead of parsing.
+- **[Writing a compiler in Ruby, bottom up](http://hokstad.com/compiler) -- [Vidar Hokstad](https://hokstad.com)** \
+  writing a self-hosting Ruby compiler that starts from code generation instead of parsing.
+
+- **[Zig's compiler internals](https://mitchellh.com/zig) -- [Mitchell Hashimoto](https://mitchellh.com/) (nice name!)** \
+  an awesome collection of writings about the internals of the Zig compiler. goes over how the tokenizer, parser, IR generator and semantic analysis work, along with some other Zig-specific topics.
 
 <h2 id="tinybins">small programs</h2>
 
-- [kilo, by antirez](https://github.com/antirez/kilo): a text editor with syntax highlighting and incremental search, implemented in 1000 lines of C code (as counted by `cloc`).
+- **[kilo](https://github.com/antirez/kilo) -- [Salvatore Sanfilippo](https://github.com/antirez)** \
+  a text editor with syntax highlighting and incremental search, implemented in 1000 lines of C code (as counted by `cloc`)
 
-- [Blit](https://quiltro.org/blit.html): a stack-based virtual machine for making "bit art". made by Lobo Torres ([quiltro.org](https://quiltro.org))
+- **[Blit](https://quiltro.org/blit.html) -- [Lobo Torres](https://quiltro.org)** \
+  a stack-based virtual machine for making "bit art"
 
 <h2 id="interwebz">other nice websites</h2>
 
-- [Just for Fun. No, Really](https://justforfunnoreally.dev/): coding, just for fun, is fun. a listing of various projects done for fun :\)
+- **[Just for Fun. No, Really](https://justforfunnoreally.dev/) -- [Tim Morgan](https://timmorgan.dev/) (epic website design right here)** \
+  coding, just for fun, is fun. a listing of various projects done for fun :\)
 
-- [Max Bernstein's website](https://bernsteinbear.com/)
+- **[tixy.land](https://tixy.land) -- [Martin Kleppe](https://x.com/@aemkei)** \
+  an artcoding tool to make small demo-ish graphics in a 16x16 dot matrix with 2 colors, with just 4 variables in a JavaScript function, and max 32 characters (soft limit).
 
-- [tixy.land](https://tixy.land): an artcoding tool to make small demo-ish graphics in a 16x16 dot matrix with 2 colors, with just 4 variables in a JavaScript function, and max 32 characters (soft limit). made by Martin Kleppe ([https://www.twitter.com/@aemkei](https://www.twitter.com/@aemkei))
-
-- [nandgame](https://nandgame.com): a webgame about building a 16-bit computer out of ICs made from nand gates. touches on assembly language and language compliation.
+- **[The Nand Game](https://nandgame.com) -- [Olav Junker Kjær](https://nandgame.com/about)** \
+  a webgame about building a 16-bit computer out of ICs, all made out of nand gates. touches on assembly language and language compilation.
 
 <h2 id="infocomps">other resource compilations</h2>
 
-- [EuclideanSpace](https://www.euclideanspace.com/): a website that looks at the mathematics behind various sciences and how they can be written as code. it looks like a 90's or 2000's page, which I'm not sure if it's intended or not, but is a plus from me regardless.
+- **[EuclideanSpace](https://www.euclideanspace.com/) -- Martin John Baker** \
+  a website that looks at the mathematics behind various sciences and how they can be written as code. it looks like a 90's or 2000's page, which I'm not sure if it's intended or not, but is a plus from me regardless.
 
-- [XXIIVV](https://wiki.xxiivv.com/site/), written by the designer and developer of the Uxn computing stack, Devine Lu Linvega ([@neauoire@merveilles.town](https://merveilles.town/@neauoire)).
+- **[XXIIVV](https://wiki.xxiivv.com/site/) -- [Devine Lu Linvega](https://merveilles.town/@neauoire)** \
+  a personal wiki made by one half of [Hundred Rabbits](https://100r.co). (50 rabbits?)
 
-- [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x): contains many tutorials to recreate various technologies.
+- **[Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) -- [Sarup Banskota](https://github.com/sarupbanskota) and [Paul Kuruvilla](https://github.com/rohitpaulk)** \
+  contains many tutorials to recreate various technologies from scratch.
 
-- [snaptoken](https://viewsourcecode.org/snaptoken): at the moment it only contains a tutorial to recreate kilo, but it will have two other tutorials: one to write a small Lua interpreter from scratch, and another to make a garbage collector for C.
+- **[snaptoken](https://viewsourcecode.org/snaptoken) -- [Paige Ruten](https://viewsourcecode.org)** \
+  at the moment it only contains a tutorial to recreate kilo, but it will have two other tutorials: one to write a small Lua interpreter from scratch, and another to make a garbage collector for C.
 
-- [rxi.github.io](https://rxi.github.io): by the aforementioned rxi, contains some explanations for how their tools work, as well as some other interesting algorithms.
+- **[rxi.github.io](https://rxi.github.io) -- [rxi](https://github.com/rxi)** \
+  contains some write-ups for how their tools work, as well as some other interesting algorithms.
 
-- [Choose a License](https://choosealicense.com/): a listing of licenses, their permissions, conditions and limitations, and a full template copy of each. it also explains what might happen if your repository doesn't have a license.
+- **[Choose a License](https://choosealicense.com/) -- [GitHub, Inc.](https://github.com/github)** \
+  a listing of licenses, their permissions, conditions and limitations, and a full template copy of each. it also explains what might happen if your repository doesn't have a license.
 
-- [How to Make a Rhythm Game](https://fizzd.notion.site/How-To-Make-A-Rhythm-Game-43d88e177da746e683afee494fdca3dc), by [7th Beat Games](https://7thbe.at): amazing set of resources to make a rhythm game that isn't just a Stepmania clone, but rather something more general. done in Unity, but it's language agnostic.
+- **[How to Make a Rhythm Game](https://fizzd.notion.site/How-To-Make-A-Rhythm-Game-43d88e177da746e683afee494fdca3dc) -- [fizzd](https://x.com/7thbeat) from [7th Beat Games](https://7thbe.at)** \
+  amazing set of resources to make a rhythm game that isn't just a Stepmania clone, but rather something more general. done in Unity, but it's language agnostic.
 
 ### changelog
 
@@ -363,3 +425,10 @@ all dates are in dd/mm/yy format
 - 18/09/24
   - fixed line break in changelog list above (markdown can be annoying sometimes)
   - added 2D Parametric Collision Detection and 2D Rigid Body Collision Response by Robert Fotino
+
+- 14/10/24
+  - added Zig's compiler internals by Mitchell Hashimoto, and the Zig language's page itself
+  - extend Dearrow notice
+  - added "A New Kind Of Love" by Frou Frou and "moment" by Vierre Cloud
+  - fixed description for "Writing a compiler in Ruby, bottom up" (I didn't know it was self-hosted until like 10 chapters in)
+  - ***absolute website redesign*** (jk, it's the links) ((which is the main part of the page so uhhh))
