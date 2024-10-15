@@ -284,8 +284,11 @@ two really nice series about writing an interpreter for a full-featured Lisp in 
 - **[tixy.land](https://tixy.land) -- [Martin Kleppe](https://x.com/@aemkei)** \
   an artcoding tool to make small demo-ish graphics in a 16x16 dot matrix with 2 colors, with just 4 variables in a JavaScript function, and max 32 characters (soft limit).
 
+- **[From Nand to Tetris](https://www.nand2tetris.org/) -- Shimon Schocken and Noam Nisan** \
+  the website that hosts the courses based on the book: [The Elements of Computing Systems: Building a Modern Computer from First Principles](https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=ed_oe_p)
+
 - **[The Nand Game](https://nandgame.com) -- [Olav Junker Kjær](https://nandgame.com/about)** \
-  a webgame about building a 16-bit computer out of ICs, all made out of nand gates. touches on assembly language and language compilation.
+  a webgame about building a 16-bit computer out of ICs, all made out of nand gates. touches on assembly language and language compilation. based on the book listed above.
 
 <h2 id="infocomps">other resource compilations</h2>
 
@@ -432,3 +435,4 @@ all dates are in dd/mm/yy format
   - added "A New Kind Of Love" by Frou Frou and "moment" by Vierre Cloud
   - fixed description for "Writing a compiler in Ruby, bottom up" (I didn't know it was self-hosted until like 10 chapters in)
   - ***absolute website redesign*** (jk, it's the links) ((which is the main part of the page so uhhh))
+  - added From Nand to Tetris by Shimon Schocken and Noam Nisan 
