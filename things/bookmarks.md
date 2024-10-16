@@ -17,6 +17,9 @@ they're not sorted in any order, but the category links are sorted alphabeticall
 - [game development](#gamedev)
 - [immediate gui](#imgui)
 - [interesting videos](#vids)
+- [music resources](#musicres)
+- [other nice websites](#interwebs)
+- [other resouce compilations](#infocomps)
 - [programming languages](#proglangs)
 - [programming language development](#pldev)
 - [small programs](#tinybins)
@@ -212,6 +215,15 @@ this is, straight up, just links to music I like to listen to, with links to the
   - [moment](https://www.youtube.com/watch?v=1QMG2QjsjdA) - nowhere in the lyrics
     is the word "moment" where did that name come from
     > "We're approximating 1+1 with this one 🗣️ 🔥 ‼️" - @pedrooou7699
+
+<h2 id="musicres">music resources</h2>
+
+- **[Notes on Music Theory](https://badd10de.dev/notes/music-theory.html) -- [Bad Diode](https://badd10de.dev/)** \
+  an incredibly extensive and comprehensive set of writings on music theory.
+  **warning**: this page has a pretty noisy orange background.
+
+- **[muted.io](https://muted.io) -- [Sébastien](https://muted.io/about)** \
+  interactive tools for practicing an instrument, studying specific music concepts informally or just for jamming and kidding around.
 
 <h2 id="lowlevel">systems programming stuff</h2>
 
@@ -436,3 +448,8 @@ all dates are in dd/mm/yy format
   - fixed description for "Writing a compiler in Ruby, bottom up" (I didn't know it was self-hosted until like 10 chapters in)
   - ***absolute website redesign*** (jk, it's the links) ((which is the main part of the page so uhhh))
   - added From Nand to Tetris by Shimon Schocken and Noam Nisan 
+
+- 16/10/24
+  - I ate two categories in the index at the top of the page; they're back now
+  - new category: [music resources](#musicres)
+  - added Notes on Music Theory by Bad Diode and muted.io
