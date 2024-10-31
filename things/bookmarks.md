@@ -225,6 +225,9 @@ this is, straight up, just links to music I like to listen to, with links to the
 - **[muted.io](https://muted.io) -- [Sébastien](https://muted.io/about)** \
   interactive tools for practicing an instrument, studying specific music concepts informally or just for jamming and kidding around.
 
+- **[An overview on procedural music generation using math and code](https://www.youtube.com/watch?v=Le7OHZJ20pE) -- [Ryan Hedgecock](https://www.youtube.com/@rhedgeco)** \
+  goes over the basics of generating audio and music using math and code, in a language-agnostic way. *Dearrow'd title.*
+
 <h2 id="lowlevel">systems programming stuff</h2>
 
 - **[Threaded code explained in C](https://dram.page/p/threaded-code) -- [dramforever](https://dram.page)** \
@@ -453,3 +456,6 @@ all dates are in dd/mm/yy format
   - I ate two categories in the index at the top of the page; they're back now
   - new category: [music resources](#musicres)
   - added Notes on Music Theory by Bad Diode and muted.io
+
+- 30/10/2024
+  - Added 'An overview on procedural music generation using math and code' by Ryan Hedgecock
