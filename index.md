@@ -10,8 +10,6 @@ I do a bunch of stuff online:
 
 - <a rel="me" href="https://mastodon.gamedev.place/@thacuber2a03">I'm in Mastodon.</a>
 - [I was in cohost.](https://cohost.org/thacuber2a03) RIP.
-- [I was also in X.](https://x.com/thacuber2a03) (it's just not Twitter anymore...)
-
 - [I make music.](https://youtube.com/@thacuber2a03)
 - [and code.](https://github.com/thacuber2a03)
 - [aaaaand make games.](https://thacuber.itch.io)
