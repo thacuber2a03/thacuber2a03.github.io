@@ -46,7 +46,7 @@ and [here's the button to go back](https://thacuber2a03.github.io/).
 
 <h2 id="vids">interesting videos</h2>
 
-these are either video essays, experiments or playlists of videos
+these are either video essays, experiments or playlists of videos that don't really fit on other categories
 
 - **[one hit wonders (and their other songs)](https://youtu.be/bLjLnQl2GHg) -- [boogiehead](https://www.youtube.com/@boogieheadmusic)** \
   a listing of some [one-hit wonders](https://en.wikipedia.org/wiki/One-hit_wonder), normally in the US, with a second song they recorded that's popular in other countries.
@@ -234,7 +234,10 @@ this is, straight up, just links to music I like to listen to, with links to the
   note, this link doesn't talk about multi-threaded programming, it talks about [threaded code](https://en.wikipedia.org/wiki/Threaded_code) which is a whole nother thing.
 
 - **[6502 Instruction Set](http://www.6502.org/users/obelisk/6502/instructions.html) -- [Andrew Jacobs (BitWise)](http://www.6502.org/users/obelisk/) (RIP)** \
-A detailed listing of all instructions and their actions/side effects in the MOS 6502 microprocessor.
+  a detailed listing of all instructions and their actions/side effects in the MOS 6502 microprocessor.
+
+- **[Handmade x86 Linux Executables](https://www.youtube.com/playlist?list=PLZCIHSjpQ12woLj0sjsnqDH8yVuXwTy3p) -- [David Smith](https://dacvs.neocities.org)** \
+  a video series on writing Linux executables in machine code with xxd, vi (or any other text editor) and the Intel manual for software developers. (Mostly the last one.)
 
 <h2 id="proglangs">programming languages</h2>
 
@@ -458,4 +461,8 @@ all dates are in dd/mm/yy format
   - added Notes on Music Theory by Bad Diode and muted.io
 
 - 30/10/2024
-  - Added 'An overview on procedural music generation using math and code' by Ryan Hedgecock
+  - added 'An overview on procedural music generation using math and code' by Ryan Hedgecock
+
+- 22/12/2024
+  - added 'Handmade x86 Linux Executables' by David Smith
+  - fix casing in some places, lowercase except for proper nouns ftw
