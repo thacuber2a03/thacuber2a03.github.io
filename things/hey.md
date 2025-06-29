@@ -339,3 +339,10 @@ I have no idea how are you supposed to do this one without modifying the languag
 ```apl
 ]Display 'hey :)'
 ```
+
+### [Nim](https://nim-lang.org)
+```
+echo "hey"
+#or, using UFCS
+"hey".echo
+```
