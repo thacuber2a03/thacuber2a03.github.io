@@ -1,19 +1,31 @@
+:root {
+	--bg-color: #333;
+	--text-color: #fff;
+
+	--link-color: #999;
+	--link-highlight-size: 4px;
+}
+
 body {
-	background-color: #cdb989;
-	padding: 80px;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	padding: 1em;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-	text-decoration: none;
+	text-decoration-style: dashed;
 	font-weight: bold;
-	color: #8b5600;
+	color: var(--link-color);
+	transition: 0.1s;
 }
 
 a:hover {
-	background: #8b5600;
-	color: #cdb989;
-	padding: 3px;
+	text-decoration: none;
+	background: var(--link-color);
+	color: var(--bg-color);
+	margin: calc(0px - var(--link-highlight-size));
+	padding: var(--link-highlight-size);
 }
 
 blockquote {

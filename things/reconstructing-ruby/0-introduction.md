@@ -1,6 +1,7 @@
 ---
-title: Reconstructing Ruby: An Introduction
-permalink: /reconstructing-ruby/0-introduction
+title: "Reconstructing Ruby: An Introduction"
+permalink: /reconstructing-ruby/introduction
+layout: default
 ---
 
 # Reconstructing Ruby: An Introduction
@@ -18,5 +19,8 @@ My plan is to release the first post today and follow up with a new post every f
 
 **Fair warning:** I'm not an artist so it's likely I won't have many images to clarify things.
 
-Next: [Our First Lexer](./1-our-first-lexer.md)
-[Index](./index.md)
+---
+
+Next: [Our First Lexer](/reconstructing-ruby/our-first-lexer)
+
+[Index](/reconstructing-ruby)

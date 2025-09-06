@@ -1,6 +1,7 @@
 ---
-title: Reconstructing Ruby, Part 1: Our First Lexer
-permalink: /reconstructing-ruby/1-our-first-lexer
+title: "Reconstructing Ruby, Part 1: Our First Lexer"
+permalink: /reconstructing-ruby/our-first-lexer
+layout: default
 ---
 
 # Reconstructing Ruby, Part 1: Our First Lexer
@@ -153,7 +154,7 @@ clean:
     rm ruby lex.yy.c
 ```
 
-All indentation in the `Makefile` is supposed to be a tab. Make sure you've typed a tab or the `make` program won't work. You'll most likely see `*** missing separator. Stop.``` if you've used spaces instead of a tab.
+All indentation in the `Makefile` is supposed to be a tab. Make sure you've typed a tab or the `make` program won't work. You'll most likely see `*** missing separator. Stop.` if you've used spaces instead of a tab.
 
 Now we can just run `make` when we want to compile our version of ruby. To verify this, run `make clean` followed by `make`. We’ll modify this file as our implementation of ruby grows.
 
@@ -161,5 +162,7 @@ If you're having any troubles with the code you can check out the reference impl
 
 Of course, in Ruby we can evaluate files as well as reading from STDIN. In the next post we'll modify our lexer to also take files as input.
 
-Prev: [Introduction](./0-introduction.md)
-[Home](./index.md)
+Previous: [Introduction](/reconstructing-ruby/introduction)
+<!-- Next: [Introduction](/reconstructing-ruby/introduction) -->
+
+[Index](/reconstructing-ruby)
