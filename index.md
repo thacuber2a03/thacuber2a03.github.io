@@ -13,10 +13,6 @@ layout: default
 I do a bunch of stuff online:
 - [I code](https://github.com/thacuber2a03),
 - [make music](/music),
-	- [YouTube](https://youtube.com/@thacuber2a03)
-	- [Newgrounds](https://thacuber.newgrounds.com)
-	- [SoundCloud](https://soundcloud.com/thacuber2a03)
-	- [Bandcamp](https://x4n3ku.bandcamp.com)
 - [aaaaand make games sometimes](https://thacuber.itch.io).
   I used to do it more frequently, but I've been falling out of fashion with it.
 
