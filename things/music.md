@@ -22,3 +22,14 @@ released December 9th, 2025
 - [Bandcamp](https://x4n3ku.bandcamp.com/track/traveller)
 
 [module/audio download](https://github.com/thacuber2a03/furmods/tree/main/traveller)
+
+## sweatsmile bossfight
+
+released September 15th, 2023
+
+- [YouTube](https://www.youtube.com/watch?v=mUHFVT1rTIk)
+- [SoundCloud](https://soundcloud.com/thacuber2a03/sweatsmile-bossfight)
+- [Newgrounds](https://www.newgrounds.com/audio/listen/1272426)
+- [Bandcamp](https://x4n3ku.bandcamp.com/track/sweatsmile-bossfight)
+
+[module/audio download](https://github.com/thacuber2a03/furmods/tree/main/sweatsmile_bossfight)
