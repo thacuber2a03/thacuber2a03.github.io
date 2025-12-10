@@ -8,7 +8,7 @@ layout: default
 
 global links:
 - [YouTube](https://youtube.com/@thacuber2a03)
-- [Newgrounds](https://thacuber.newgrounds.com)
+- [Newgrounds](https://thacuber.newgrounds.com/audio)
 - [SoundCloud](https://soundcloud.com/thacuber2a03)
 - [Bandcamp](https://x4n3ku.bandcamp.com)
 
