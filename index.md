@@ -11,9 +11,14 @@ layout: default
 ---
 
 I do a bunch of stuff online:
-- [I make music](https://youtube.com/@thacuber2a03)
-- [and code](https://github.com/thacuber2a03)
-- [aaaaand make games.](https://thacuber.itch.io)
+- [I code](https://github.com/thacuber2a03),
+- [make music](/music),
+	- [YouTube](https://youtube.com/@thacuber2a03)
+	- [Newgrounds](https://thacuber.newgrounds.com)
+	- [SoundCloud](https://soundcloud.com/thacuber2a03)
+	- [Bandcamp](https://x4n3ku.bandcamp.com)
+- [aaaaand make games sometimes](https://thacuber.itch.io).
+  I used to do it more frequently, but I've been falling out of fashion with it.
 
 I spend most of my time in Discord @ thacuber2a03, 
 but I'm <a rel="me" href="https://mastodon.gamedev.place/@thacuber2a03">also on Mastodon.</a>
@@ -24,16 +29,16 @@ but I'm <a rel="me" href="https://mastodon.gamedev.place/@thacuber2a03">also on 
 
 ---
 
-you probably know me from:
+other places you might've heard of me from:
 
 - [the Tetris clone I made](https://github.com/thacuber2a03/Blockdate)
   for the [Playdate](https://play.date) console. it got a bit popular.
-- some plugins I\'ve made for the [Lite XL](https://github.com/lite-xl/lite-xl) text editor, namely
-    - all modifications to the pack of caret-related plugins **custom\_caret**, **smoothcaret** and **motiontrail**.
-    - [wal.lxl.](https://github.com/thacuber2a03/wal.lxl)
-    - [easingpreview.](https://github.com/thacuber2a03/lite-xl-easingpreview)
-    - the miscellaneous [equationgrapher.](https://github.com/thacuber2a03/equationgrapher)
-    - [fontpreview.](https://raw.githubusercontent.com/lite-xl/lite-xl-plugins/master/plugins/fontpreview.lua)
+- some plugins I\'ve made for the [Lite XL](https://github.com/lite-xl/lite-xl) text editor (no longer actively using it), namely
+	- all modifications to the pack of caret-related plugins **custom\_caret**, **smoothcaret** and **motiontrail**.
+	- [wal.lxl.](https://github.com/thacuber2a03/wal.lxl)
+	- [easingpreview.](https://github.com/thacuber2a03/lite-xl-easingpreview)
+	- the miscellaneous [equationgrapher.](https://github.com/thacuber2a03/equationgrapher)
+	- [fontpreview.](https://raw.githubusercontent.com/lite-xl/lite-xl-plugins/master/plugins/fontpreview.lua)
 
 ---
 
