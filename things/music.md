@@ -7,14 +7,22 @@ layout: default
 # music releases
 
 global links:
+
 - [YouTube](https://youtube.com/@thacuber2a03)
 - [Newgrounds](https://thacuber.newgrounds.com/audio)
 - [SoundCloud](https://soundcloud.com/thacuber2a03)
 - [Bandcamp](https://x4n3ku.bandcamp.com)
 
+my choice of platforms to post to, was... unpredictable, to say the least. the only relatively consistent platform so far has been YouTube.
+
+some of the older ones weren't even released outside of it, and two of them were released on SoundCloud, back when I was a frequent user of the app.
+generally, anything before *about* 2022 I consider an ["oldie"](/older-music).
+
+## made in [Furnace Tracker](https://github.com/tildearrow/furnace)
+
 ## Traveller
 
-released December 9th, 2025
+released December 9th, 2025.
 
 - [YouTube](https://www.youtube.com/watch?v=ytZgQtohmF4)
 - [SoundCloud](https://soundcloud.com/thacuber2a03/traveller)
@@ -23,9 +31,9 @@ released December 9th, 2025
 
 [module/audio download](https://github.com/thacuber2a03/furmods/tree/main/traveller)
 
-## sweatsmile bossfight
+### sweatsmile bossfight
 
-released September 15th, 2023
+released September 15th, 2023. demo song for Furnace.
 
 - [YouTube](https://www.youtube.com/watch?v=mUHFVT1rTIk)
 - [SoundCloud](https://soundcloud.com/thacuber2a03/sweatsmile-bossfight)
@@ -33,3 +41,32 @@ released September 15th, 2023
 - [Bandcamp](https://x4n3ku.bandcamp.com/track/sweatsmile-bossfight)
 
 [module/audio download](https://github.com/thacuber2a03/furmods/tree/main/sweatsmile_bossfight)
+
+## made in [Dn-FamiTracker](https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker)
+
+### hey that's cool
+
+released September 13th, 2023
+
+- [YouTube](https://www.youtube.com/watch?v=uUvuLDpGTHc)
+
+### Jazzy Madness (collab with [MegaSparky Tunes](https://megasparkytunes.bandcamp.com/))
+
+released September 9th, 2023. my first ever collab.
+original production date was around a year and a half before that.
+
+- [YouTube](https://www.youtube.com/watch?v=VSGBHc-TRvI)
+- [SoundCloud](https://soundcloud.com/thacuber2a03/jazzy-madness)
+
+### The Day I Saw It
+
+released July 23th, 2022. submission to the first Dn-FamiTracker Demo Compo.
+
+- [YouTube](https://www.youtube.com/watch?v=yxR-pw7nCWc)
+
+### How 'Bout A Drink?
+
+released February 5th, 2022.
+
+- [YouTube](https://www.youtube.com/watch?v=pQQvT7JiP-Q)
+
