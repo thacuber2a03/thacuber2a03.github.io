@@ -15,14 +15,14 @@ global links:
 
 my choice of platforms to post to, was... unpredictable, to say the least. the only relatively consistent platform so far has been YouTube.
 
-some of the older ones weren't even released outside of it, and two of them were released on SoundCloud, back when I was a frequent user of the app.
+some of the older ones weren't even released on outside of it, and two of them were released on on SoundCloud, back when I was a frequent user of the app.
 generally, anything before *about* 2022 I consider an ["oldie"](/older-music).
 
 ## made in [Furnace Tracker](https://github.com/tildearrow/furnace)
 
 ## Traveller
 
-released December 9th, 2025.
+released on December 9th, 2025.
 
 - [YouTube](https://www.youtube.com/watch?v=ytZgQtohmF4)
 - [SoundCloud](https://soundcloud.com/thacuber2a03/traveller)
@@ -33,7 +33,7 @@ released December 9th, 2025.
 
 ### sweatsmile bossfight
 
-released September 15th, 2023. demo song for Furnace.
+released on September 15th, 2023. demo song for Furnace.
 
 - [YouTube](https://www.youtube.com/watch?v=mUHFVT1rTIk)
 - [SoundCloud](https://soundcloud.com/thacuber2a03/sweatsmile-bossfight)
@@ -46,13 +46,13 @@ released September 15th, 2023. demo song for Furnace.
 
 ### hey that's cool
 
-released September 13th, 2023
+released on September 13th, 2023.
 
 - [YouTube](https://www.youtube.com/watch?v=uUvuLDpGTHc)
 
 ### Jazzy Madness (collab with [MegaSparky Tunes](https://megasparkytunes.bandcamp.com/))
 
-released September 9th, 2023. my first ever collab.
+released on September 9th, 2023. my first ever collab.
 original production date was around a year and a half before that.
 
 - [YouTube](https://www.youtube.com/watch?v=VSGBHc-TRvI)
@@ -60,13 +60,13 @@ original production date was around a year and a half before that.
 
 ### The Day I Saw It
 
-released July 23th, 2022. submission to the first Dn-FamiTracker Demo Compo.
+released on July 23th, 2022. submission to the first Dn-FamiTracker Demo Compo.
 
 - [YouTube](https://www.youtube.com/watch?v=yxR-pw7nCWc)
 
 ### How 'Bout A Drink?
 
-released February 5th, 2022.
+released on February 5th, 2022.
 
 - [YouTube](https://www.youtube.com/watch?v=pQQvT7JiP-Q)
 

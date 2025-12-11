@@ -6,21 +6,22 @@ layout: default
 
 # older music releases
 
-these were things I released back when I was starting tracking and maybe even music in general.
+these were things I released on back when I was starting tracking and music in general.
 most of these songs don't represent my style of composition anymore, or so I think. tread carefully, I guess...
 
 ## made in [Dn-FamiTracker](https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker)
 
 ### Park Swing
 
-- [YouTube](https://www.youtube.com/watch?v=r5HYcbVKnu8) -- released December 19th, 2021.
-- [Newgrounds](https://www.newgrounds.com/projects/audio/1809967) -- released December 31th, 2021. yeah, might as well have waited for New Years, but...
+- [YouTube](https://www.youtube.com/watch?v=r5HYcbVKnu8) -- released on December 19th, 2021.
+- [Newgrounds](https://www.newgrounds.com/projects/audio/1809967) -- released on December 31th, 2021. could've have waited for New Years, but I was eager to release it there it seems.
 
 ## made in [Deflemask](https://deflemask.com)
 
 ### Running Between Clouds
 
-released October 12th, 2021. demo song for Deflemask.
+released on October 12th, 2021. demo song for Deflemask.
+
 seems like production started some months before.
 idk, I don't want to ask younger me about it.
 
@@ -28,7 +29,7 @@ idk, I don't want to ask younger me about it.
 
 ### Another Galaxy
 
-released June 20th, 2021. demo song for Deflemask.
+released on June 20th, 2021. demo song for Deflemask.
 
 - [SoundCloud](https://soundcloud.com/thacuber2a03/another-galaxy)
 
@@ -51,7 +52,7 @@ nowadays I don't write music quick enough to make a new album, but it'd be nice 
 
 ### Gameboy Tune
 
-released December 26th, 2020.
+released on December 26th, 2020.
 
 - [YouTube](https://www.youtube.com/watch?v=QRLA9VM7QJU)
 
