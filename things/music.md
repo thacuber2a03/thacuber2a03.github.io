@@ -15,7 +15,7 @@ global links:
 
 my choice of platforms to post to, was... unpredictable, to say the least. the only relatively consistent platform so far has been YouTube.
 
-some of the older ones weren't even released on outside of it, and two of them were released on on SoundCloud, back when I was a frequent user of the app.
+some of the older ones weren't even released outside of it, and two of them were released on SoundCloud, back when I was a frequent user of the app.
 generally, anything before *about* 2022 I consider an ["oldie"](/older-music).
 
 ## made in [Furnace Tracker](https://github.com/tildearrow/furnace)

@@ -6,7 +6,7 @@ layout: default
 
 # older music releases
 
-these were things I released on back when I was starting tracking and music in general.
+these were things I released back when I was starting tracking and music in general.
 most of these songs don't represent my style of composition anymore, or so I think. tread carefully, I guess...
 
 ## made in [Dn-FamiTracker](https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker)
