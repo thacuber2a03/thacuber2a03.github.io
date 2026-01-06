@@ -20,6 +20,17 @@ generally, anything before *about* 2022 I consider an ["oldie"](/older-music).
 
 ## made in [Furnace Tracker](https://github.com/tildearrow/furnace)
 
+## Relapse of Memories
+
+released on January 6th, 2026.
+
+- [YouTube](https://www.youtube.com/watch?v=L8TfEIQakA8)
+- [SoundCloud](https://soundcloud.com/thacuber2a03/relapse-of-memories)
+- [Newgrounds](https://www.newgrounds.com/audio/listen/1510635)
+- [Bandcamp](https://x4n3ku.bandcamp.com/track/relapse-of-memories)
+
+[module/audio download](https://github.com/thacuber2a03/furmods/tree/main/relapse)
+
 ## Traveller
 
 released on December 9th, 2025.
