@@ -23,6 +23,11 @@ generally, anything before *about* 2022 I consider an ["oldie"](/older-music).
 ## Relapse of Memories
 
 released on January 6th, 2026.
+I had [originally shared it as a "WIP" track in Twitter in 2022](https://twitter.com/thacuber2a03/status/1528070972829474823/video/1),
+but I was burnt out by high school and I didn't feel I had enough skill to continue it, so I procrastinated and eventually shelved it.
+I'm proud to say I finally finished it.
+
+(you might not be able to see the linked video, cause when I left I privated my Twitter account. sorry :/)
 
 - [YouTube](https://www.youtube.com/watch?v=L8TfEIQakA8)
 - [SoundCloud](https://soundcloud.com/thacuber2a03/relapse-of-memories)
