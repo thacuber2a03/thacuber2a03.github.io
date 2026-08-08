@@ -6,8 +6,6 @@ layout: default
 <img src="assets/images/TC.png" alt="<insert image of me>" id="me"/> hey, what's up.
 ====================================================================================
 
-<sub>new style! yay.</sub>
-
 ---
 
 I do a bunch of stuff online:
