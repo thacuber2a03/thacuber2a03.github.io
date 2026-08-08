@@ -20,7 +20,14 @@ generally, anything before *about* 2022 I consider an ["oldie"](/older-music).
 
 ## made in [Furnace Tracker](https://github.com/tildearrow/furnace)
 
-## Relapse of Memories
+### Toby Fox - Shop 3 (DELTARUNE Chapter 5 OST cover)
+
+released on July 19th, 2026.
+the incredibly rare cover. currently only released in [YouTube](https://www.youtube.com/watch?v=3DCkJM2Z2og).
+
+[module/audio download](https://github.com/thacuber2a03/furmods/tree/main/shop3)
+
+### Relapse of Memories
 
 released on January 6th, 2026.
 I had [originally shared it as a "WIP" track in Twitter in 2022](https://twitter.com/thacuber2a03/status/1528070972829474823/video/1),
@@ -36,7 +43,7 @@ I'm proud to say I finally finished it.
 
 [module/audio download](https://github.com/thacuber2a03/furmods/tree/main/relapse)
 
-## Traveller
+### Traveller
 
 released on December 9th, 2025.
 
