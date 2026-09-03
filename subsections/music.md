@@ -23,7 +23,11 @@ generally, anything before *about* 2022 I consider an ["oldie"](/older-music).
 ### Toby Fox - Shop 3 (DELTARUNE Chapter 5 OST cover)
 
 released on July 19th, 2026.
-the incredibly rare cover. currently only released in [YouTube](https://www.youtube.com/watch?v=3DCkJM2Z2og).
+
+the unusual cover
+
+- [YouTube](https://www.youtube.com/watch?v=3DCkJM2Z2og)
+- [Newgrounds](https://www.newgrounds.com/audio/listen/1596283)
 
 [module/audio download](https://github.com/thacuber2a03/furmods/tree/main/shop3)
 
