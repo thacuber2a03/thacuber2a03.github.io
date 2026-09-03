@@ -153,3 +153,11 @@ jeez, and despite that much time spent I didn't make many changes:
   - move [some tunez](#music) to the bottom
   - subscript some dumb comments
 
+- 02/09/2026
+
+I don't really care about this page all that much anymore I think :/
+
+  - added 'Isometric Tiles Math' by Clint Bellanger
+  - remove Frums from music section (for reasons)
+
+yeah, that's it. disappointing, I know

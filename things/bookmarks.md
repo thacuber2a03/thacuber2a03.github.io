@@ -65,6 +65,9 @@ these are either video essays, experiments or playlists of videos that don't rea
   this book goes over various programming patterns that are useful for game or game engine design. \
   from the writer of Crafting Interpreters (this book came before it)
 
+- **[Isometric Tiles Math](https://clintbellanger.net/articles/isometric_math/) -- [Clint Bellanger](http://clintbellanger.net/)** \
+  nice overview of math for 2D isometric grids, for games or otherwise.
+
 <h2 id="imgui">immediate gui</h2>
 <sub>...there aren't as many resources about it as I'd like there to be</sub>
 
@@ -234,14 +237,6 @@ this is, straight up, just links to music I like to listen to, with links to the
   - [Windowkill OST](https://soundcloud.com/keestak/sets/windowkill-ost)
     - [Windowchill](https://soundcloud.com/keestak/windowchill)
     - [Windowkiller](https://soundcloud.com/keestak/windowkiller)
-- [Frums](https://soundcloud.com/frums/)
-  - [A Dance of Fire and Ice Neo Cosmos DLC OST](https://www.youtube.com/playlist?list=PLoV0Pc5bQC6LhGsbNaCGvHzuUP1TFeI1S) - link to YT
-    - [sing sing red indigo](https://soundcloud.com/frums/sing-sing-red-indigo)
-  - [Aegleseeker](https://soundcloud.com/frums/aegleseeker) - collab with [Silentroom](https://soundcloud.com/silentrm-net), credited to "Silentroom vs. Frums"
-  - [of Ambrosia](https://soundcloud.com/frums/of-ambrosia)
-  - [Q.E.](https://soundcloud.com/frums/q-dot-e-dot)
-  - [μ](https://soundcloud.com/frums/mju)
-  - [HALL](https://soundcloud.com/frums/hall)
 - [Deffy](https://soundcloud.com/deffynite) - f.k.a. Deathro
   - [Attemption](https://soundcloud.com/deffynite/attemption)
 - [commandycan](https://soundcloud.com/commandycan)
