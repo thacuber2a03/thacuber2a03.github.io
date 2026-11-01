@@ -9,7 +9,7 @@ layout: default
 ---
 
 I do a bunch of stuff online:
-- [I code](https://github.com/thacuber2a03),
+- [I code](https://codeberg.org/thacuber2a03) (I'm mostly using Codeberg right now, [here's my GitHub account](https://github.com/thacuber2a03)),
 - [make music](/music),
 - [aaaaand make games sometimes](https://thacuber.itch.io).
   I used to do it more frequently, but I've been falling out of fashion with it.
