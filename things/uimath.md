@@ -6,9 +6,9 @@ layout: default
 
 # ui math
 
-due to the lack of resources I found about this _very specific_ topic, I decided to make one by and for myself.
+due to the lack of resources I found about this seemingly very specific topic, I decided to make one by and for myself.
 
-please note that this site is just documenting what I have figured out so far about the topic. if you'd like to correct something, or help with some section of this page, please go to [the website's repo](https://github.com/thacuber2a03/thacuber2a03.github.io) and submit an issue or a pull request.
+please note that this site is just documenting what I have figured out so far about the topic.
 
 ## layout and positioning
 
@@ -28,7 +28,7 @@ in addition to the widget itself, boxes typically consist of three other parts, 
 
 > is it hypocritical of me to talk about UI when I drew this in less than 5 minutes while caring as little as possible about the placement of anything in it?
 >
-> my site's design doesn't help me either, but honestly, I don't really care. I'm a game programmer, not an UI designer.
+> my site's design doesn't help me either, but honestly, I don't really care. I'm a game programmer, not a UI designer.
 >
 > until I have some free time to use a proper UI editor, or even better, to _program_ an example, all other images will also follow this pattern.
 
@@ -68,9 +68,9 @@ boxes can also be placed relative to their parent, such as next to the left bord
     int centerX = boxX + (parentW - boxW) / 2;
     ```
 
-for the case where you have multiple boxes you want to fit within a container, the easiest solution I can think of is to sum up the widths of all the boxes and divide that by the width of the parent container. then, when drawing, adjust each child's width by this ratio.
+#### multiple boxes
 
-this is essentially adjusting the widths by the mean of all the children's widths with respect to the parent.
+for the case where you have multiple boxes you want to fit within a container, the easiest solution I can think of is to sum up the widths of all the boxes and divide that by the width of the parent container. then, when drawing, adjust each child's width by this ratio.
 
 ```c
 int childrenWidthSum = 0;
@@ -95,7 +95,7 @@ for (i = 0; i < numChildren; i++)
 >
 > I do however have a [p5.js example](https://editor.p5js.org/thacuber2a03/sketches/1zbVh-XWn).
 >
-> also, [I really like IMGUIs](/things/bookmarks.md#imgui).
+> also, [I really like IMGUIs](/bookmarks#imgui).
 
 this entire section has mostly talked about the placement of widgets in the X axis, but the nice thing about this is that all the math is exactly the same for both axes. so, yeah, you can go "Find and Replace" your way through these snippets and switch all `x`s to `y`s, or even better (or worse), all `x`s to `z`s! :)
 
@@ -109,6 +109,18 @@ this entire section has mostly talked about the placement of widgets in the X ax
 ```
 date format: dd/mm/yyyy
 ```
+
+- 01/11/2026:
+
+    I may not touch this file again, mostly because I don't really care about it anymore
+
+    it stays public because it's still somewhat useful
+
+    - remove repo mention (these are getting tiresome and nothing's happening w.r.t. them)
+    - add [multiple boxes](#multiple-boxes) section separator
+    - remove redundant statement in multiple boxes
+    - fix link to particular section in bookmarks
+    - fix small typo
 
 - 29/09/2024:
     - remove last three images from quotes (leftborder, rightborder and centerbox)
