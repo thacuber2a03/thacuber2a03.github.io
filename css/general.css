@@ -11,6 +11,9 @@ body {
 	color: var(--text-color);
 	padding: 1em;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	max-width: 960px;
+	margin: auto;
 }
 
 a {
@@ -36,18 +39,6 @@ blockquote {
 }
 
 #me {
-	margin: 8px;
 	vertical-align: middle;
-	max-width: 5vw;
-}
-
-@media only screen and (max-width: 620px) {
-	body {
-		padding: 10px;
-	}
-
-	#me {
-		/* vertical-align: text-middle; */
-		max-width: 10vw;
-	}
+	max-width: 96px;
 }
