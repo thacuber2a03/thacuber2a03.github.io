@@ -6,7 +6,7 @@ layout: default
 
 # "hey :)" written in a bunch of languages
 
-note: these are not ordered in any particular way, and I try to highlight them with the best matching syntax highlighter if there doesn't exist any for it.
+these are not ordered in any particular way
 
 ### C
 ```c
