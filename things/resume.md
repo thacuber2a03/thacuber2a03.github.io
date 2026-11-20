@@ -19,6 +19,8 @@ layout: default
   - [STACK-4](https://codeberg.org/thacuber2a03/stack4)
   - [Princeton](https://codeberg.org/thacuber2a03/princeton)
 
+- systems programming with C/[Zig](https://ziglang.org)
+
 - tooling work
   - [related to Lite XL](https://github.com/lite-xl/lite-xl/issues?q=author%3Athacuber2a03)
   - [related to Umka](https://github.com/thacuber2a03?tab=repositories&q=topic%3Aumka-lang)
@@ -26,10 +28,6 @@ layout: default
   - [libtcod-zig](https://codeberg.org/thacuber2a03/libtcod-zig)
 
 - programming language development work (private)
-
-- systems programming with C/[Zig](https://ziglang.org)
-  - see the above list
-
 - hobbyist musician; composes for the NES using [Furnace Tracker](https://github.com/tildearrow/furnace), see the YouTube link
 
 ## timeline
