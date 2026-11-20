@@ -21,21 +21,25 @@ layout: default
 - systems programming with C/[Zig](https://ziglang.org)
 
 - tooling work
-  - [related to Lite XL](https://github.com/lite-xl/lite-xl/issues?q=author%3Athacuber2a03) - [Lite XL's homepage](https://lite-xl.com); highlights:
-    - implemented [text overtype for core](https://github.com/lite-xl/lite-xl/pull/1495)
-    - [project-level search improvements](https://github.com/lite-xl/lite-xl/pull/1876)
-
-  - [related to Umka](https://github.com/thacuber2a03?tab=repositories&q=topic%3Aumka-lang) - [Umka's repository](https://github.com/vtereshkov/umka-lang); highlights:
-    - [toast](https://github.com/thacuber2a03/toast) - testing framework for Umka
-    - [catcurses](https://github.com/thacuber2a03/catcurses) - ncurses bindings for Umka
-    - [kilocat](https://github.com/thacuber2a03/kilocat) - [the Kilo text editor](https://github.com/antirez/kilo), rewritten in Umka using catcurses
-    - [fnv.um](https://github.com/thacuber2a03/fnv.um) - Fowler-Noll-Vo 1/a hash functions implemented in Umka
-
+  - [related to Lite XL](https://github.com/lite-xl/lite-xl/issues?q=author%3Athacuber2a03) - [Lite XL's homepage](https://lite-xl.com)
+  - [related to Umka](https://github.com/thacuber2a03?tab=repositories&q=topic%3Aumka-lang) - [Umka's repository](https://github.com/vtereshkov/umka-lang)
   - [zig-umka](https://codeberg.org/thacuber2a03/zig-umka) - Umka, packaged for Zig's build system
   - [libtcod-zig](https://codeberg.org/thacuber2a03/libtcod-zig) - libtcod, packaged for Zig's build system
 
 - personal programming language development work (private)
 - hobbyist musician; composes for the NES using [Furnace Tracker](https://github.com/tildearrow/furnace), see YouTube
+
+### highlights
+
+#### Lite XL
+- implemented [text overtype for core](https://github.com/lite-xl/lite-xl/pull/1495)
+- [project-level search improvements](https://github.com/lite-xl/lite-xl/pull/1876)
+
+#### Umka
+- [toast](https://github.com/thacuber2a03/toast) - testing framework for Umka
+- [catcurses](https://github.com/thacuber2a03/catcurses) - ncurses bindings for Umka
+- [kilocat](https://github.com/thacuber2a03/kilocat) - [the Kilo text editor](https://github.com/antirez/kilo), rewritten in Umka using catcurses
+- [fnv.um](https://github.com/thacuber2a03/fnv.um) - Fowler-Noll-Vo 1/a hash functions implemented in Umka
 
 ## timeline
 
